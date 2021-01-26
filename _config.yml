@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Steve's Blog =
+title: Steve's Blog
 description: >- # this means to ignore newlines until "baseurl:"
             Knowledge base of Math, EE & CS
 
@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 
-baseurl: "/steve-blog" # the subpath of your site, e.g. /blog
-url: "https://EeToSe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/steve-blog" # the subpath of your site, e.g. /blog
+#url: "https://EeToSe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
