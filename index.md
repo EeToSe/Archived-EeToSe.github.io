@@ -6,7 +6,9 @@ description: "homepage"
 permalink: /
 ---
 
-# Learn by Practice
-
+# Lifelong journey to learn Math & EECS
+{: .fs-9 }
 The best way to learn is to do; the worst way to teach is to talk.
+{: .fs-6 .fw-300 }
 
+---
