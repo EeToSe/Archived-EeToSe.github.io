@@ -6,9 +6,9 @@ description: "homepage"
 permalink: /
 ---
 
-# Jedi by Practice
+# Knowledge by Hand and Mind
 {: .fs-9 }
-Pass on what you have learned.
+It takes half your life before you discover life is a do-it-yourself project
 {: .fs-6 .fw-300 }
 
 ---
