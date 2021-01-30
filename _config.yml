@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:Never Stand Still
+title: Never Stand Still
 description: >- # this means to ignore newlines until "baseurl:"
             Knowledge base of Math, EE & CS
 
