@@ -2,7 +2,7 @@
 layout: default
 title: Foundamental
 nav_order: 1
-parent: alg
+parent: algorithms
 ---
 
 ## Java programming environment
