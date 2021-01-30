@@ -3,7 +3,7 @@ layout: default
 title: Thoughts
 #nav_order: 3
 has_children: true
-permalink: docs/alg
+permalink: docs/thoughts
 ---
 
 # Thoughts
