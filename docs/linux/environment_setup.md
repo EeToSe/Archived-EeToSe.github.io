@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Preparation
+title: preparation
 nav_order: 1
 parent: Linux
 ---
@@ -23,12 +23,39 @@ My current OS in use
 * Partition: reference for [general schemes](https://help.ubuntu.com/community/PartitioningSchemes) and [well-written guide](https://help.ubuntu.com/lts/installation-guide/amd64/install.en.pdf)
 
 My partition table
-
 | Partition | Size(GB) |
 | :-:|  :-: |
 | /   |   40 |
 | /home |  100 |
 | swap  |  16  |
 
+## Sync icloud-calendar with thunderbird
+Detailed info found [here] (https://webhostinghero.org/ubuntu-icloud-sync/), steps are summarised as below.
+1. Create an Apple App-Specific Password
+2. Setup icloud on Thunderbird
+  * install adds-on : Lightning, LightningButton, Lightning Calendar Tabs, TbSync and Provider for CalDAV & CardDAV
+  * TbSync -> Account actions -> Add new account menu and select  CalDAV & CardDAV
+  * Enter the previously generated application password
+  * Restart Thunderbird and ctrl + shift + c to open the calendar
+
+## Data Transfer between linux and ios
+Device: iphone 6s plus - ios 13.7 + Razer Ubuntu 20.04 LTS
+### Access iphone on iphone with USB
+[Youtube step by step intro] (https://www.youtube.com/watch?v=LWkIQK-HBDI)
+```sh
+sudo apt install ifuse
+mkdir ~/iphone
+ifuse ~/iphone
+```
+### Drop PC file to iphone
+* Download vlc and open "sharing via WIFI"
+* Open PC browser with the url providerd and drop your files  
+* Open FIles in ios and check files in the vlc folder
+A more technical method to try [here] (https://www.addictivetips.com/ubuntu-linux-tips/transfer-files-from-linux-to-ios-wirelessly/)
+### Use cloud drive
+
+  
 ## Chinese input
 A detailed How-to could be found [here](https://leimao.github.io/blog/Ubuntu-Gaming-Chinese-Input/)
+
+
