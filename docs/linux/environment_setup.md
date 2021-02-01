@@ -51,6 +51,7 @@ ifuse ~/iphone
 * Download vlc and open "sharing via WIFI"
 * Open PC browser with the url providerd and drop your files  
 * Open FIles in ios and check files in the vlc folder
+
 A more technical method to try [here](https://www.addictivetips.com/ubuntu-linux-tips/transfer-files-from-linux-to-ios-wirelessly/).
 
 ### Use icloud drive
