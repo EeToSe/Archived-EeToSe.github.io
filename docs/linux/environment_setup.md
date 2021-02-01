@@ -40,7 +40,7 @@ Detailed info found [here](https://webhostinghero.org/ubuntu-icloud-sync/), step
 
 ## Data Transfer between linux and ios
 Device: iphone 6s plus - ios 13.7 + Razer Ubuntu 20.04 LTS
-### Access iphone on iphone with USB
+### Access iphone on PC with USB
 [Youtube step by step intro](https://www.youtube.com/watch?v=LWkIQK-HBDI)
 ```sh
 sudo apt install ifuse
