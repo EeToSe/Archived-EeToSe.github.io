@@ -11,8 +11,8 @@ parent: Algorithms
 
 ## OOP
 Data type example: **string** and **colour** .
-### About Colour
-* *Luminance* :  linear combination of the three intensities $ Y = 0.299r + 0.587g + 0.114b$.
+### About Colour  
+* *Luminance* :  linear combination of the three intensities  $'Y = 0.299r + 0.587g + 0.114b'$
 * *Grayscale*: compute *Luminance* -> replace RGB values 
 * *compatibility*: rule of thumb - difference between the luminance of the foreground and background color > 128
 
