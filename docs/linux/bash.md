@@ -7,7 +7,7 @@ parent: Linux
 
 # Bash - a Unix shell and command language
 {:no_toc}
-This section foucs on tips for speed and efficiency in working in bash shell.
+Reminders for speed and efficiency in working in bash shell.
 {:fs-6}
 
 UNDER CONSTRUCTION
