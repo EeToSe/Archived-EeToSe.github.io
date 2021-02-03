@@ -44,11 +44,12 @@ Basic elements with an illustrated graph.
 
 ### Designing Data Types
 <ul>
-<li>**Encapsulation**: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
- <ul> 
+ <li>**Encapsulation**: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
+  <ul> 
    <li>*Private*: make the instance variable/method impossible for any client to directly access.</li>
-   <li> *Limiting the potential for error*: ensure code operates as intended.  
-  </ul> Example code: [Counter.java](https://introcs.cs.princeton.edu/java/33design/Counter.java.html)
- </li>
+   <li> *Limiting the potential for error*: ensure code operates as intended.  </li>
+   <li> Example code: [Counter.java](https://introcs.cs.princeton.edu/java/33design/Counter.java.html)</li>
+  </ul> 
+</li>
    
 </ul>
