@@ -38,7 +38,7 @@ Basic elements with an illustrated graph.
 * Test client: call every constructor and instance method in the class.
 
 <p align="center">
-<img src = "/assets/image/data-type.png" alt="hi" class="inline" max-width="60%"/>
+<img src = "/assets/image/data-type.png" alt="hi" max-width="60%"/>
 <em>Example code using the data type - charge </em>
 </p>
 
