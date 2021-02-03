@@ -42,4 +42,13 @@ Basic elements with an illustrated graph.
 <em>Example code using the data type - charge </em>
 </p>
 
-Image insert here. <data-type >
+### Designing Data Types
+<ul>
+<li>**Encapsulation**: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
+ <ul> 
+   <li>*Private*: make the instance variable/method impossible for any client to directly access.</li>
+   <li> *Limiting the potential for error*: ensure code operates as intended.  
+  </ul> Example code: [Counter.java](https://introcs.cs.princeton.edu/java/33design/Counter.java.html)
+ </li>
+   
+</ul>
