@@ -6,7 +6,7 @@ parent: Linux
 ---
 # i3 window manager
 {: .no_toc}
-Titling window
+Titling window manager
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
