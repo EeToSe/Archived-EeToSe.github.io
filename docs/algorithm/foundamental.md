@@ -37,4 +37,9 @@ Basic elements with an illustrated graph.
 * Instance methods: perform operations on instance variables.
 * Test client: call every constructor and instance method in the class.
 
+<p align="center">
+<img src = "/assets/image/data-type.png" alt="hi" class="inline"/>
+<em>Example code using the data type - charge </em>
+</p>
+
 Image insert here. <data-type >
