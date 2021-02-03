@@ -44,13 +44,18 @@ Basic elements with an illustrated graph.
 
 ### Designing Data Types
 <ul>
- <li>**Encapsulation**: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
+ <li> <strong>Encapsulation</strong>: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
   <ul> 
-   <li>*Private*: make the instance variable/method impossible for any client to directly access.</li>
-   <li> *Limiting the potential for error*: ensure code operates as intended. </li>
+   <li> <em>Private</em>: make the instance variable/method impossible for any client to directly access.</li>
+   <li> <em>Limiting the potential for error</em>: ensure code operates as intended. </li>
    <li><a href="https://introcs.cs.princeton.edu/java/33design/Counter.java.html">Example code: Counter.java</a></li>
   </ul> 
 </li>
-  
+<li> <strong> Immutability </strong>: An object from a data type is immutable if its data-type value cannot change once created.  
+  <ul>
+    <li><em>Final</em>: promised to assign it a value only once which helps enforce immutability</li>
+  <li><em>Reference types</em>: the final access modifier <mark>does not guarantee immutability for instance variables of mutable types</mark>. In such cases, you must make a defensive copy. </li>
+    </ul>
+ </li>
 </ul>
 
