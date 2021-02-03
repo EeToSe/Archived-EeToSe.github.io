@@ -62,7 +62,7 @@ Basic elements with an illustrated graph.
   <li> <em>Defining</em>: the body of the interface contains a list of <mark>abstract</mark> methods - 
    which is declared but does not include any implementation code with only the method signature.
   </li>
-  <li> <em>Implementing</em>: include an <mark>implements</mark> clause in the class declaration with the name of the interface & implement each of the abstract methods
+  <li> <em>Implementing</em>: include an implements clause in the class declaration with the name of the interface & implement each of the abstract methods
   </li>
   <li><em>Using</em>: a reference type -> you can declare the type of a variable to be the name of an interface. <mark> Any object you assign to that variable must be an instance of a class that implements the interface.</mark>
   </li>
