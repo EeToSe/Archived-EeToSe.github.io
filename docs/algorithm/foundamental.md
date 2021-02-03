@@ -51,11 +51,34 @@ Basic elements with an illustrated graph.
    <li><a href="https://introcs.cs.princeton.edu/java/33design/Counter.java.html">Example code: Counter.java</a></li>
   </ul> 
 </li>
-<li> <strong> Immutability </strong>: An object from a data type is immutable if its data-type value cannot change once created.  
+<li> <strong>Immutability</strong>: An object from a data type is immutable if its data-type value cannot change once created.  
   <ul>
     <li><em>Final</em>: promised to assign it a value only once which helps enforce immutability</li>
   <li><em>Reference types</em>: the final access modifier <mark>does not guarantee immutability for instance variables of mutable types</mark>. In such cases, you must make a defensive copy. </li>
     </ul>
  </li>
+ <li> <strong>Interface inheritance</strong>: declare a relationship between otherwise unrelated classes by specifying a common set of methods that each implementing class must include.
+ <ul>
+  <li> <em>Defining</em>: the body of the interface contains a list of <mark>abstract</mark> methods - 
+   which is declared but does not include any implementation code with only the method signature.
+  </li>
+  <li> <em>Implementing</em>: include an <mark>implements</mark> clause in the class declaration with the name of the interface & implement each of the abstract methods
+  </li>
+  <li><em>Using</em>: a reference type -> you can declare the type of a variable to be the name of an interface. <mark> Any object you assign to that variable must be an instance of a class that implements the interface.</mark>
+  </li>
+  </ul>
+</li>
+   <li> <strong>Implementation inheritance (subclassing) </strong>: another inheritance mechanism TODO
+   </li>
+ <li> <strong>Design by contract</strong>: enable you to verify assumptions
+  <ul>
+   <li> <em> Exceptions</em>: taken as throwing an exception to signal an error
+    </li>
+   <li> <em>Assertions</em>: a boolean expression affirming is true at some point during the execution of a prgram
+    By default, they are disabled which are used for debugging only.
+   </li>
+   </ul>
+ </li>
+ 
 </ul>
 
