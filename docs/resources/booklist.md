@@ -2,7 +2,7 @@
 layout: default
 title: booklist
 nav_order: 1
-parent: resources
+parent: Resources
 ---
 
 # Math
