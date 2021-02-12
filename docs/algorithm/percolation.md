@@ -25,7 +25,12 @@ Integer array id[] of length N.</li>
 </li>
 
 <li>
-*Quick-union*.
-<>
+<strong>Quick-union</strong>.
+<ul>
+<li>Data structure. </li>
+<li>Find. </li>
+<li> </li>
+</ul>
 </li>
+
 </ol>
