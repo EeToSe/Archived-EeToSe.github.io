@@ -16,7 +16,7 @@ grand_parent: Assignment
 <li>
 <strong>Quick-find</strong>.
 <ul>
-<li>[Data structure]{.text-blue-000}
+<li><span style="color:blue">Data structure</span>.
 Integer array id[] of length N.</li>
 <li>Find. Check if p and q have the same id.</li>
 <li>Union. Change all entries whose id equals id[p] to id[q]. </li>
@@ -41,6 +41,16 @@ Integer array id[] of length N.</li>
 </li>
 
 </ol>
+---
 
 ## Application
-*Percolation*
+**Percolation**
+* N*N grid of intensities
+* Each site is open with probability p
+* System percolates iff top and bottom are connected by open sites.
+
+### FAQs
+* The test cases provided **do not** correspond to specification - array index one start from 0 while another start from 1.
+* Backwash problem caused by virtual top and bottom sites.
+* Memory efficiency - see details in grader report
+* Object Percolation shall be declared as local variable instead of instance variable
