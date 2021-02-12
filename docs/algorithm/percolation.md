@@ -16,8 +16,7 @@ grand_parent: Assignment
 <li>
 <strong>Quick-find</strong>.
 <ul>
-<li>Data structure.
-{.text-blue-000}
+<li>[Data structure]{.text-blue-000}
 Integer array id[] of length N.</li>
 <li>Find. Check if p and q have the same id.</li>
 <li>Union. Change all entries whose id equals id[p] to id[q]. </li>
@@ -29,8 +28,19 @@ Integer array id[] of length N.</li>
 <ul>
 <li>Data structure. </li>
 <li>Find. </li>
-<li> </li>
+<li>union </li>
+</ul>
+</li>
+
+<li>
+<strong>Improvements </strong>
+<ul>
+<li> Weighting  </li>
+<li> Path compression  </li>
 </ul>
 </li>
 
 </ol>
+
+## Application
+*Percolation*
