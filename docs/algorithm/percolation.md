@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Code with line numbers
-parent: Algorithms
-grand_parent: Assignment
+title: percolation
+parent: assignment
+grand_parent: Algorithms
 ---
 
 # Case Study: Percolation
@@ -18,17 +18,17 @@ grand_parent: Assignment
 <ul>
 <li><span style="color:blue">Data structure</span>.
 Integer array id[] of length N.</li>
-<li>Find. Check if p and q have the same id.</li>
-<li>Union. Change all entries whose id equals id[p] to id[q]. </li>
+<li><span style="color:blue">Find</span>. Check if p and q have the same id.</li>
+<li><span style="color:blue">Union</span>. Change all entries whose id equals id[p] to id[q]. </li>
 </ul>
 </li>
 
 <li>
 <strong>Quick-union</strong>.
 <ul>
-<li>Data structure. </li>
-<li>Find. </li>
-<li>union </li>
+<li><span style="color:blue">Data structure</span>. </li>
+<li><span style="color:blue">Find</span>. </li>
+<li><span style="color:blue">Union</span>.</li>
 </ul>
 </li>
 

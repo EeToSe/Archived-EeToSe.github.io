@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment
+title: assignment
 nav_order: 2
 has_children: true
 parent: Algorithms
