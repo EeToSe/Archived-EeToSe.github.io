@@ -20,7 +20,7 @@ Implementations of this API with different data structures
 ### Generic
 The notation <Item> after the class name in each of APIs defines the name Item as a type parameter, i.e. you could use this symbolic placeholder for some concrete type. For example, Stack of Strings as code below.
 
-```Java
+```java
 Stack<String> stack = new Stack<String>();
 stack.push("Test");
 ...
@@ -29,7 +29,7 @@ String next = stack.pop();
 ### Autoboxing
 In conclusion, **autoboxing** -> casting a primitive type to a wrapper type; **unboxing** -> casting a wrapper type to a primitive type.
 
-``` Java
+``` java
 Stack<Integer> stack = new Stack<Integer>();
 stack.push(17);        // autoboxing (int -> Integer)
 int i = stack.pop();   // unboxing   (Integer -> int)
@@ -38,7 +38,7 @@ int i = stack.pop();   // unboxing   (Integer -> int)
 ### Iteration
 Why? Java supports elegant "foreach" client code, see the example code below.
 
-```Java
+```java
 public Iterator<Item> iterator() {
     return new ArrayIterator();
 }
