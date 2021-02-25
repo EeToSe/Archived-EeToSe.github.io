@@ -29,6 +29,8 @@ My partition table
 | /home |  100 |
 | swap  |  16  |
 
+P.S. To resize your partition after installation, you could boot from USB drive and use **gparted**.
+
 ## Sync icloud-calendar with thunderbird
 Detailed info found [here](https://webhostinghero.org/ubuntu-icloud-sync/), steps are summarised as below.
 1. Create an Apple App-Specific Password
