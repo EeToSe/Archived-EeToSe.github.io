@@ -1,9 +1,9 @@
 ---
 layout: default
 title: collinear
-nav_order: 3
 parent: assignment
 grand_parent: Algorithms
+nav_order: 3
 ---
 
 # Collinear Points
