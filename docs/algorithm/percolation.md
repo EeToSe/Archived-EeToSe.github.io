@@ -3,6 +3,7 @@ layout: default
 title: percolation
 parent: assignment
 grand_parent: Algorithms
+nav_order: 1
 ---
 
 # Case Study: Percolation
