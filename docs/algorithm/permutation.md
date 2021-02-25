@@ -3,6 +3,7 @@ layout: default
 title: permutation
 parent: assignment
 grand_parent: Algorithms
+nav_order: 2
 ---
 
 # Deques and RandomizedQueues
