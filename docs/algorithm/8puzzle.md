@@ -6,6 +6,8 @@ grand_parent: Algorithms
 nav_order: 4
 ---
 
+<img align="right" src="assets/8puzzle.png">
+
 # 8 Puzzle
 
 ## Proble statement
