@@ -7,7 +7,7 @@ nav_order: 1
 ---
 <img align="right" src="/assets/image/percolation.png" alt = "hi" width="400">
 
-# Case Study: Percolation
+# Percolation
 ## Union-Find
 **Problem Statement**. Given a set of N objects.
 * Union: connect two objects
