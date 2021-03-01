@@ -5,12 +5,13 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 3
 ---
+<img align="right" src="/assets/image/collinear.png" alt = "hi" width="400">
 
 # Collinear Points
 
 ## Algorithm
 
-* Brute Force 
+* Brute Force
 * faster, sorting-based solution
   * For each point p -> origin, every other point q, determine slope q -> p
   * Sort the points based on slope q -> p
@@ -24,5 +25,3 @@ nav_order: 3
 4. **Comparable** and **Comparator**
 5. To filter the **subsequence**, simply check if this point is at the bottom/ top in the found collinear points.
 6.  Returns a reference to the mutable object stored in the instance variable 'collinearPoints', which exposes the internal representation of the class 'BruteCollinearPoints'
-
-   

@@ -5,15 +5,15 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 2
 ---
-
+<img align="right" src="/assets/image/queues.png" alt = "hi" width="400">
 # Deques and RandomizedQueues
-## Background 
+## Background
 ### Stack
 Implementations of this API with different data structures
 * Array  - [fixed-length](https://algs4.cs.princeton.edu/13stacks/FixedCapacityStack.java.html) & [resizing](https://algs4.cs.princeton.edu/13stacks/ResizingArrayStack.java.html)
 * [Linked lists](https://algs4.cs.princeton.edu/13stacks/Stack.java.html)
 
-### Queue 
+### Queue
 Implementations of this API with different data structures
 * [Array](https://algs4.cs.princeton.edu/13stacks/ResizingArrayQueue.java.html)  - tricker
 * [Linked lists](https://algs4.cs.princeton.edu/13stacks/Queue.java.html)
@@ -47,10 +47,10 @@ public Iterator<Item> iterator() {
 // an iterator, doesn't implement remove() since it's optional
 private class ArrayIterator implements Iterator<Item> {
     private int i = 0;
-    public boolean hasNext()  { 
+    public boolean hasNext()  {
       return i < n;    
     }
-    public void remove() { 
+    public void remove() {
       throw new UnsupportedOperationException();  
     }
 
@@ -72,6 +72,3 @@ Write a generic data type for a deque and a randomized queue.
 3. To generate a randomized array, instead of creating a copy and shuffle, we could create an index array and shuffle.
 4. To be sovled, some test cases about timing(RandomizedQueue enqueue, data strcuture resizedArray)
 5. Use camelCase
-
-
-

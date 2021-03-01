@@ -5,6 +5,7 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 1
 ---
+<img align="right" src="/assets/image/percolation.png" alt = "hi" width="400">
 
 # Case Study: Percolation
 ## Union-Find
