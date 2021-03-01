@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Resources
-nav_order: 6
+title: Projects
+nav_order: 5
 has_children: true
-permalink: docs/resources
+permalink: docs/projects
 ---
 
 # Collection of resources
