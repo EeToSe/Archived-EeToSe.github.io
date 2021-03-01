@@ -6,4 +6,4 @@ parent: Projects
 ---
 
 Under construction, more details coming
-<a href="EeToSe.github.io/assets/poster.pdf" target="_blank">PDF.</a> 
+The thesis poster could be [here](https://eetose.github.io/assets/poster.pdf)
