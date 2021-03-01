@@ -5,7 +5,8 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 3
 ---
-<img align="right" src="/assets/image/collinear.png" alt = "hi" width="400">
+
+<img align="right" src="/assets/image/collinear.png" alt = "hi" width="250">
 
 # Collinear Points
 
