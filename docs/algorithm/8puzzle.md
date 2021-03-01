@@ -6,7 +6,7 @@ grand_parent: Algorithms
 nav_order: 4
 ---
 
-<img align="right" src="/assets/image/8puzzle.png" alt = "hi" width="48">
+<img align="right" src="/assets/image/8puzzle.png" alt = "hi" width="200">
 
 # 8 Puzzle
 
