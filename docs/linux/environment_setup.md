@@ -24,7 +24,7 @@ My current OS in use
 
 My partition table
 | Partition | Size(GB) |
-| :-:|  :-: |
+| :---:|  :---: |
 | /   |   40 |
 | /home |  100 |
 | swap  |  16  |
