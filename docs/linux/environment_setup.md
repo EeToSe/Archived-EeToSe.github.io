@@ -62,4 +62,6 @@ A more technical method to try [here](https://www.addictivetips.com/ubuntu-linux
 ## Chinese input
 A detailed How-to could be found [here](https://leimao.github.io/blog/Ubuntu-Gaming-Chinese-Input/)
 
+## Overleaf
+[A weird offset](https://support.mozilla.org/bg/questions/1263396?&mobile=0) found here which is caused by [monospace](https://en.wikipedia.org/wiki/Monospaced_font) issue. In the prefrence page of firefox, change the option of Monospace from proportional one to monospace should fix the problem. 
 
