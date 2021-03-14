@@ -1,3 +1,10 @@
+---
+layout: default
+title: Machine Learning
+nav_order: 2
+parent: Projects
+---
+
 ## Definition
 
 learn from experience E with respect to some task T and some performance measure P
