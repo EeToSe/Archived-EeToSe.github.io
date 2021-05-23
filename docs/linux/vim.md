@@ -21,10 +21,10 @@ parent: Linux
    variations - delete num lines: num dd
 3. Move between lines
   - Jump to certain line from command mode: :line number
-  - gg: go to the top
-  - G: go to the bottom 
-  - G o: go to bottom and type below the last line
-  - G O: 
+  - `gg`: go to the top
+  - `G`: go to the bottom 
+  - `G o`: go to bottom and type below the last line
+  - `G O`: 
   Move within the line
   - 0: move to the beginning of the line
   - $: move to the end of the line
