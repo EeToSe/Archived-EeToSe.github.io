@@ -65,3 +65,6 @@ A detailed How-to could be found [here](https://leimao.github.io/blog/Ubuntu-Gam
 ## Overleaf
 [A weird offset](https://support.mozilla.org/bg/questions/1263396?&mobile=0) found which is caused by [monospace](https://en.wikipedia.org/wiki/Monospaced_font) issue. In the prefrence page of firefox, change the option of Monospace from proportional one to monospace should fix the problem. 
 
+## Resize disk partition
+As partitions must be **unmounted** in order to be modified, a bootable USB with Gparted is suggested to boot into the computer 
+

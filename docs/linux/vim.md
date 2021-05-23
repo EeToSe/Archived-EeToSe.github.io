@@ -6,6 +6,7 @@ parent: Linux
 ---
 # Beginning of Vim
 [Youtube tutorial](https://www.youtube.com/watch?v=ggSyF1SVFr4)
+
 [Retrospect](https://danielmiessler.com/study/vim/)
 
 ## How to exit Vim
