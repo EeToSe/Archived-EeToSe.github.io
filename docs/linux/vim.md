@@ -12,31 +12,40 @@ parent: Linux
 ## How to exit Vim
 1. Press **Esc** to exit the edit mode
 2. commands
-  - :q! - quit without saving
-  - :wq - save and exit Vim		 
+  - `:q!` - quit without saving
+  - `:wq` - save and exit Vim		 
+
+## Copy, cut and paste
+[Yank(`y`), cut(`d`) paste(`p`)](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)
 
 ## Frequently used 
 1. Vim modes: command mode(esc); insert mode(i)
-2. Delete a single line from command mode: dd
+2. Undo changes from command mode: `u`
+3. Redo changes from command mode: `ctrl+r`
+
+## Line operation
+  - Delete a single line from command mode: dd
    variations - delete num lines: num dd
-3. Move between lines
   - Jump to certain line from command mode: :line number
   - `gg`: go to the top
   - `G`: go to the bottom 
   - `G o`: go to bottom and type below the last line
-  - `G O`: 
-  Move within the line
-  - 0: move to the beginning of the line
-  - $: move to the end of the line
-  - ^: move to the first non-blank character in the line	
-4. Moving by word
-  - w: move forward one word
-  - b: move back one word
-  - e: move to the end of your word
-5. Undo changes from command mode: u
-6. Redo changes from command mode: ctrl+r
-7. Search words: /word. n(next) -> search next; shift+n -> search previous
+  - `G O`: Move within the line
+  - `0`: move to the beginning of the line
+  - `$`: move to the end of the line
+  - `^`: move to the first non-blank character in the line	
+
+## Word operation
+  - `w`: move forward one word
+  - `b`: move back one word
+  - `e`: move to the end of your word
+  - Search words: /word. `n`(next) -> search next; `shift+n` -> search previous
+
+## Deleting words in Vim
+1. `dw`: delete word from the cursor position to the end of word
+2. `diw`: delete inside the word     
+3. `dt<char>`: delete from cursor to the specified character 
 
 ## Search and replace
-:%s/previous/current/g(greedy)c(confirm)
+`:%s/previous/current/g(greedy)c(confirm)`
 
