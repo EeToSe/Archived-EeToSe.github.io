@@ -49,3 +49,9 @@ parent: Linux
 ## Search and replace
 `:%s/previous/current/g(greedy)c(confirm)`
 
+## Commenting out a block of code with Vim
+1. Move to the first column in the first line you want to comment out
+2. Press Ctrl-V to start block-mode selection.
+3. Move down to select the first column of a block of lines.
+4. Press I and then the desired comment starter (i.e. #)
+5. Press ESC and the insertion will be applied to the whole block.
