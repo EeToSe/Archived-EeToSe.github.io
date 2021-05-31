@@ -1,12 +1,12 @@
 ---
 layout: default
-title: preparation
-nav_order: 1
+title: Software Tool
+nav_order: 6
 parent: Linux
 ---
-# Software Issues
+# Useful Software Tools Introduction
 {: .no_toc}
-This section records the problems encountered related with linux software.
+This section records the applications which I have used during the various programs and the related problems :)
 {: .no_toc .text-delta }
 1. TOC
 {:toc}
@@ -26,3 +26,16 @@ This section records the problems encountered related with linux software.
 010 execute by group
 001 execute by anybody
 775 give all permission except write by anybody; 777 makes the directory writable, readable and executable by anybody
+
+## pdftk/ qpdf
+**Task**: Extract the first pages of 70 papers and combine them into one pdf sequentially.
+[**Origin Solution**](https://superuser.com/questions/207414/extract-first-page-from-multiple-pdfs): 
+Step1: Extract first page from multiple pdfs
+```sh
+for file in *.pdf ; do pdftk "$file" cat 1 output "${file%.pdf}-page1.pdf" ; done
+```
+Step2: Combine the results into one pdf
+```sh
+pdftk *-page1.pdf cat output combined.pdf
+```
+**Advance**: How to do it in order?
