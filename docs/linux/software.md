@@ -44,6 +44,7 @@ Use sort to understand how the files are sorted in linux.举个栗子
 ```sh
 ls | sort -k1.1,1.3
 ```
+man sort or see [this page](https://stackoverflow.com/questions/6297906/linux-sort-only-by-the-first-letter-of-each-line) 
 <p align = "center">
 <img src="assets/image/sort-right.png" alt="hi" class="inline"/>
 <em>Files are sorted sequentially</em>
