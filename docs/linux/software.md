@@ -42,7 +42,7 @@ pdftk *-page1.pdf cat output combined.pdf
 **Advance**: How to do it in order?
 Use sort to understand how the files are sorted in linux.举个栗子
 ```sh
-
+ls | sort -k1.1,1.3
 ```
 <p align = "center">
 <img src="assets/image/sort-right.png" alt="hi" class="inline"/>
