@@ -52,6 +52,6 @@ man sort or see [this page](https://stackoverflow.com/questions/6297906/linux-so
 
 <p align = "center">
 <img src="/assets/image/sort-wrong.png" alt="hi" class="inline"/>
-<em>Files are not sorted sequentially (pay attention to the sequence '1.XXXX')</em>
+<em>Files are not sorted sequentially (pay attention to the sequence <span style="color:red">'1.XXXX'</span>)</em>
 </p>
 
