@@ -27,6 +27,22 @@ This section records the applications which I have used during the various progr
 001 execute by anybody
 775 give all permission except write by anybody; 777 makes the directory writable, readable and executable by anybody
 
+## img2pdf
+I wish I could have known this amazing software a couple of years. It is just elegant and efficient to solve the file conversion in Linux.
+**Task**: Convert images to pdfs.
+
+**Problem**: I still dont understand the mess with [Imagemagick](https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion)
+
+**Soultion**: [img2pdf](https://askubuntu.com/questions/246647/convert-a-directory-of-jpeg-files-to-a-single-pdf-document)
+```sh
+# combine all jpgs into one pdf
+img2pdf --out test.pdf *.jpg
+# combine jpg to pdf format one by one
+for file in *.jpg; do img2pdf --out "${file%.jpg}.pdf" "$file"; done
+```
+Explanation for code: `$` 用于引用变量的值
+[What does `%` do in bash?](https://superuser.com/questions/1119290/what-does-do-in-linux-shell-strings):When % is used in pattern ${variable%substring} it will return content of variable with the shortest occurance of substring deleted from back of variable.
+
 ## pdftk/ qpdf
 **Task**: Extract the first pages of 70 papers and combine them into one pdf sequentially.
 
@@ -54,4 +70,6 @@ man sort or see [this page](https://stackoverflow.com/questions/6297906/linux-so
 <img src="/assets/image/sort-wrong.png" alt="hi" class="inline"/>
 <em>Files are not sorted sequentially (pay attention to the sequence <span style="color:red">'1.XXXX'</span>)</em>
 </p>
+
+
 
