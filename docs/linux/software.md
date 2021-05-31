@@ -29,6 +29,7 @@ This section records the applications which I have used during the various progr
 
 ## pdftk/ qpdf
 **Task**: Extract the first pages of 70 papers and combine them into one pdf sequentially.
+
 [**Origin Solution**](https://superuser.com/questions/207414/extract-first-page-from-multiple-pdfs): 
 Step1: Extract first page from multiple pdfs
 ```sh
@@ -39,3 +40,17 @@ Step2: Combine the results into one pdf
 pdftk *-page1.pdf cat output combined.pdf
 ```
 **Advance**: How to do it in order?
+Use sort to understand how the files are sorted in linux.举个栗子
+```sh
+
+```
+<p align = "center">
+<img src="assets/image/sort-right.png" alt="hi" class="inline"/>
+<em>Files are sorted sequentially</em>
+</p>
+
+<p align = "center">
+<img src="assets/image/sort-wrong.png" alt="hi" class="inline"/>
+<em>Files are not sorted sequentially (pay attention to the sequence '1.XXXX')</em>
+</p>
+
