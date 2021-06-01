@@ -68,5 +68,7 @@ A detailed How-to could be found [here](https://leimao.github.io/blog/Ubuntu-Gam
 ## Resize disk partition
 As partitions must be **unmounted** in order to be modified, a bootable USB with Gparted is suggested to boot into the computer. A online [tutorial](https://www.howtoforge.com/partitioning_with_gparted)could be found here.
 
+## Connect with Airpods Pro
+[Answer](https://reckoning.dev/blog/airpods-pro-ubuntu/) here.
 
 
