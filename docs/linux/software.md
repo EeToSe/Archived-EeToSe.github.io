@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software Tool
+title: software tool
 nav_order: 6
 parent: Linux
 ---

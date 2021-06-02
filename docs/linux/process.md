@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Process Management 
+title: process management 
 nav_order: 5 
 parent: Linux
 ---
