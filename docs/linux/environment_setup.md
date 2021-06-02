@@ -4,7 +4,7 @@ title: preparation
 nav_order: 1
 parent: Linux
 ---
-# Environment Setup
+# Installation
 {: .no_toc}
 Tweak everything for efficiency
 {: .no_toc .text-delta }
@@ -18,7 +18,7 @@ My current OS in use
 * [Ubuntu 20.04 LTS](https://releases.ubuntu.com/20.04/) - maybe the most popular Debian based distribution
 * [Manjaro i3](https://manjaro.org/downloads/community/i3/) - my favorite with a well riced i3wm by default
 
-## Installation
+## Boot
 * [Rufus](https://rufus.ie/) only available on windows used to create a bootable USB driver
 * Partition: reference for [general schemes](https://help.ubuntu.com/community/PartitioningSchemes) and [well-written guide](https://help.ubuntu.com/lts/installation-guide/amd64/install.en.pdf)
 
@@ -31,6 +31,7 @@ My partition table
 
 P.S. To resize your partition after installation, you could boot from USB drive and use **gparted**.
 
+# Synchronize with iphone
 ## Sync icloud-calendar with thunderbird
 Detailed info found [here](https://webhostinghero.org/ubuntu-icloud-sync/), steps are summarised as below.
 1. Create an Apple App-Specific Password
@@ -58,7 +59,7 @@ A more technical method to try [here](https://www.addictivetips.com/ubuntu-linux
 
 ### Use icloud drive
 
-  
+# Misc  
 ## Chinese input
 A detailed How-to could be found [here](https://leimao.github.io/blog/Ubuntu-Gaming-Chinese-Input/)
 
@@ -71,4 +72,9 @@ As partitions must be **unmounted** in order to be modified, a bootable USB with
 ## Connect with Airpods Pro
 [Answer](https://reckoning.dev/blog/airpods-pro-ubuntu/) here.
 
-
+# Environment setup
+学习配置环境 start from [here](https://zh-v2.d2l.ai/chapter_installation/index.html) 
+**Purpose**: init specific environments for different projects to avoid potential conflict.
+**Problem**: Conda is configured to activate the **base** environment when I open a fresh terminal session.
+**Soultion**: change the [configuration](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default) of ~/.condarc 
+[**CheetSheet**](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) could be found here 
