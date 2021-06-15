@@ -73,8 +73,8 @@ As partitions must be **unmounted** in order to be modified, a bootable USB with
 [Answer](https://reckoning.dev/blog/airpods-pro-ubuntu/) here.
 
 # Environment setup
-学习配置环境 start from [here](https://zh-v2.d2l.ai/chapter_installation/index.html) 
-**Purpose**: init specific environments for different projects to avoid potential conflict.
-**Problem**: Conda is configured to activate the **base** environment when I open a fresh terminal session.
-**Soultion**: change the [configuration](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default) of ~/.condarc 
+学习配置环境 start from [here](https://zh-v2.d2l.ai/chapter_installation/index.html) \
+**Purpose**: init specific environments for different projects to avoid potential conflict.\
+**Problem**: Conda is configured to activate the **base** environment when I open a fresh terminal session.\
+**Soultion**: change the [configuration](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default) of ~/.condarc \ 
 [**CheetSheet**](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) could be found here 
