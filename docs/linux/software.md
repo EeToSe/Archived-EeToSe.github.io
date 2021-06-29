@@ -71,5 +71,8 @@ man sort or see [this page](https://stackoverflow.com/questions/6297906/linux-so
 <em>Files are not sorted sequentially (pay attention to the sequence <span style="color:red">'1.XXXX'</span>)</em>
 </p>
 
+## AppImageLauncher
+**Task**: manage all .Appimage files e.g. Mathpix in one directory and integrate AppImages into the application menu or launcher.
+**Repo**: [github repository](https://github.com/TheAssassin/AppImageLauncher) and [stable ppa](https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable)
 
 
