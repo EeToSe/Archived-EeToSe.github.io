@@ -61,5 +61,6 @@ Routers: Store the hard-coded server list.
 </tr></table>
 
 ## Sensor Network System and Visualization Results 
+<a href="/assets/Thesis_Report.pdf">Thesis report</a> and  <a href="/assets/Seminar.pdf">Seminar presentation</a> could be found here if interested.
 <iframe width="100%" height="700" src="/assets/poster.pdf">If you are seeing this text, the preview of the CV failed. Most likely this happened because your browser does not support this technical feature. In this case, please download the CV using the link above.</iframe>
 
