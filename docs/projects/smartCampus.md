@@ -28,7 +28,7 @@ Gain insights into the behavior of real estate usage on UNSW  through the instru
 </p>
 
 <p align = "center">
-<img src="/assets/image/smartcampus/device_statistics.png" alt="sensors" class="inline"/>
+<img src="/assets/image/smartcampus/device_statistics.PNG" alt="sensors" class="inline"/>
 <br>
 <em>Device installation covering labs, meeting rooms and corridors </em>
 </p>
@@ -46,14 +46,14 @@ Routers: Store the hard-coded server list.
 <table><tr>
 <td> 
   <p align="center">
-    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_hosts.png" width="350">
+    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_hosts.PNG" width="350">
     <br>
     <em style="color: grey">VPN hosts</em>
   </p> 
 </td>
 <td> 
   <p align="center">
-    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_table.png" width="300">
+    <img alt="vpn_table" src="/assets/image/smartcampus/vpn_table.PNG" width="300">
     <br>
     <em style="color: grey">VPN description table</em>
   </p> 
