@@ -3,7 +3,7 @@ layout: default
 title: Thoughts
 nav_order: 4
 has_children: true
-nav_exclude: tru
+nav_exclude: true
 permalink: docs/thoughts
 ---
 
