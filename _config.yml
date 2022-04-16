@@ -23,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
             Knowledge base of Math, EE & CS
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
-#theme: just-the-docs
+#remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 #baseurl: "/steve-blog" # the subpath of your site, e.g. /blog
 #url: "https://EeToSe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -72,7 +72,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 # appears at the bottom of every page's main content
 
 # Back to top link
-back_to_top: true
+back_to_top: false
 back_to_top_text: "Back to top"
 
 # Footer last edited timestamp
