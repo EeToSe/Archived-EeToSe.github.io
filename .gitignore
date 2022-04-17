@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+docs/template.md
+_config.yml
+_config.yml
+.vscode/settings.json
+_config.yml

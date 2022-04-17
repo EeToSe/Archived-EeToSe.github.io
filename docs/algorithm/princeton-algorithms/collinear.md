@@ -6,7 +6,7 @@ grand_parent: Algorithms
 nav_order: 3
 ---
 
-<img align="right" src="/assets/image/collinear.png" alt = "hi" width="250">
+<img align="right" src="/assets/image/princeton-algorithms/collinear.png" alt = "hi" width="250">
 
 # Collinear Points
 

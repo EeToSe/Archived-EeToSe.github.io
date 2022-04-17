@@ -6,7 +6,7 @@ grand_parent: Algorithms
 nav_order: 4
 ---
 
-<img align="right" src="/assets/image/8puzzle.png" alt = "hi" width="250">
+<img align="right" src="/assets/image/princeton-algorithms/8puzzle.png" alt = "hi" width="250">
 
 # 8 Puzzle
 

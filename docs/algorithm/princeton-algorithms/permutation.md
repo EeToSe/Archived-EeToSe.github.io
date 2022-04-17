@@ -5,7 +5,7 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 2
 ---
-<img align="right" src="/assets/image/queues.png" alt = "hi" width="250">
+<img align="right" src="/assets/image/princeton-algorithms/queues.png" alt = "hi" width="250">
 
 # Queues
 ## Background

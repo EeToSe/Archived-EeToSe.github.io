@@ -5,7 +5,7 @@ parent: assignment
 grand_parent: Algorithms
 nav_order: 1
 ---
-<img align="right" src="/assets/image/percolation.png" alt = "hi" width="250">
+<img align="right" src="/assets/image/princeton-algorithms/percolation.png" alt = "hi" width="250">
 
 # Percolation
 ## Union-Find
