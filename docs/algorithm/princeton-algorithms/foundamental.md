@@ -2,13 +2,14 @@
 layout: default
 title: fundamental
 nav_order: 1
+nav_exclude: true
 parent: Algorithms
 ---
 ## Functions
 
 ## OOP
-Data type example: **string** and **colour** .
-### About Colour  
+Data type example: **string** and **color** .
+### About Color  
 * *Luminance* :  linear combination of the three intensities.
 ```math
 Y = 0.299r + 0.587g + 0.114b
@@ -41,7 +42,7 @@ Basic elements with an illustrated graph.
 
 ### Designing Data Types
 <ul>
- <li> <strong>Encapsulation</strong>: separte clients from implmentations by hiding information to enable modular programming, faciitate debugging and clarify program code.
+ <li> <strong>Encapsulation</strong>: separate clients from implementations by hiding information to enable modular programming, facilitate debugging and clarify program code.
   <ul>
    <li> <em>Private</em>: make the instance variable/method impossible for any client to directly access.</li>
    <li> <em>Limiting the potential for error</em>: ensure code operates as intended. </li>
@@ -65,7 +66,7 @@ Basic elements with an illustrated graph.
   </li>
   </ul>
 </li>
-   <li> <strong>Implementation inheritance (subclassing) </strong>: another inheritance mechanism TODO
+   <li> <strong>Implementation inheritance (subclassify) </strong>: another inheritance mechanism TODO
    </li>
  <li> <strong>Design by contract</strong>: enable you to verify assumptions
   <ul>
