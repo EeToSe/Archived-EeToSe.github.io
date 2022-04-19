@@ -9,7 +9,13 @@ This page is converted from jupyter notebook by
 ```python
 jupyter nbconvert --to markdown filtering.ipynb
 ```
-Follow CS 543 lec6 filtering on the basis of CMU 16-385 notebook
+Concepts see CS 543 lec6 filtering on the basis of CMU 16-385 notebook
+
+**Bonus**: How to set up a python venv and manage required Python packages with requirements.txt 
+```python
+python -m venv ./test
+pip freeze > requirements
+```
 
 ## Part 1: What is an image?
 
