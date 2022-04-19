@@ -58,14 +58,15 @@ x).
   - Case 2: x has one child. Splice out x by linking x’s parent to x’s child.
   - Case 3: x has two children. Swap x with x’s successor and splice out x by linking x’s parent to x’s child.
 Case 1 and Case 2 can be combined.
-**Special case**: Delete the root node
-1. create a sentinel node
-2. link the sentinel node with root
-3. delete self.root
-4. reassign sentinel.left to self.root 
-5. unlink the sentinel node   
 
-[Code](https://github.com/EeToSe/Algorithms/blob/main/src/data-structures/bst.py) and details [Binary Search Tree](BST.md)
+  **Special case**: Delete the root node
+  1. create a sentinel node
+  2. link the sentinel node with root
+  3. delete self.root
+  4. reassign sentinel.left to self.root 
+  5. unlink the sentinel node   
+
+  [Code](https://github.com/EeToSe/Algorithms/blob/main/src/data-structures/bst.py) and details [Binary Search Tree](BST.md)
 
 ## Unit_test
 ### Check representation invariant
