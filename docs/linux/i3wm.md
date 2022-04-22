@@ -12,7 +12,7 @@ Titling window manager
 {:toc}
 
 <p align = "center">
-<img src="/assets/image/i3wm.png" alt="hi" class="inline"/>
+<img src="/assets/image/linux/i3wm.png" alt="hi" class="inline"/>
 <em>Customized i3</em>
 </p>
 
@@ -83,7 +83,7 @@ sudo apt-get install -y fonts-font-awesome
 A window switcher, Application launcher and dmenu replacement
 
 <p align = "center">
-<img src="/assets/image/rofi.png" alt="hi" class="inline"/>
+<img src="/assets/image/linux/rofi.png" alt="hi" class="inline"/>
 <em>Drop in menu</em>
 </p>
 
