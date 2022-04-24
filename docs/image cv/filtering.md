@@ -2,7 +2,7 @@
 layout: default
 title: image filtering
 nav_order: 1
-parent: computer vision
+parent: Computer Vision
 ---
 ## Introduction
 This page is converted from jupyter notebook by 

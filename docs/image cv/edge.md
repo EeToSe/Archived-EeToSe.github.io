@@ -1,8 +1,8 @@
 ---
 layout: default
 title: edge
-nav_order: 2
-parent: computer vision
+nav_order: 3
+parent: Computer Vision
 ---
 <head>
 <meta charset="UTF-8">
