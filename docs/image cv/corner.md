@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "feature detectors: corner"
+title: "feature detector"
 nav_order: 4
 parent: Computer Vision
 ---
@@ -21,27 +21,32 @@ parent: Computer Vision
 ## Correlation
 $$\textbf{f - image, h - kernel} \\$$
 
-$$g=f \otimes h  \quad \textcolor{blue}{\text{cross correlation}}$$
+$$g=f \otimes h  \quad \textcolor{blue}{\text{cross correlation}}$$<br>
 
-$$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)$$
+$$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)$$<br>
 
-$$g=f \otimes f \quad \textcolor{blue}{\text{auto correlation}}$$
+$$g=f \otimes f \quad \textcolor{blue}{\text{auto correlation}}$$<br>
 
-$$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) f(k, l)$$
+$$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) f(k, l)$$<br>
+
+$$g_{N}(i,j) = \frac{\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)} 
+{\sqrt{\sum_{k} \sum_{l} f^{2}(i+k, j+l)} {\sqrt{\sum_{k} \sum_{l} h^{2}(k, l)}}} 
+\textcolor{blue}{\quad \text{Normalized cross correlation}}$$<br>
+
+$$g_{N}(i,j)$$ is used in **template matching**.
 
 ## Summed square difference(SSD)
 
-$$SSD=\sum_{k} \sum_{l}(f(k, l)-h(i+k, j+l))^{2} $$ 
+$$SSD(i,j)=\sum_{k} \sum_{l}(f(i+k, j+l)-h(k, l))^{2} $$ 
 
-$$ SSD=\sum_{k} \sum_{l}\left(\cancel{f(k, l)^{2}}-2 h(i+k, j+l) f(k, l)
-        +\cancel{h(i+k, j+l)^{2}}\right) \\ 
-        = \sum_{k} \sum_{l}(-2 h(i+k, j+l) f(k, l))$$
+$$ SSD(i,j)=\sum_{k} \sum_{l}\left(\cancel{f(i+k, j+l)^{2}}-2 f(i+k, j+l) h(k, l)
+        +\cancel{h(k, l)^{2}}\right) \\ 
+        = \sum_{k} \sum_{l}(-2 f(i+k, j+l) h(k, l))$$
 
 ### Relation between cross correlation and SSD
-
-$$ \mathop{SSD}\limits_{minimize} = {-2 h(i+k, j+l) f(k, l)} \\
-    \text{which is equal to} \\
-    \mathop{\text{cross correlation}} \limits_{maximize} = 2 h(i+k, j+l) f(k, l)$$
+$$ \mathop{SSD(i,j)}\limits_{minimize} = \sum_{k} \sum_{l}{-2 h(i+k, j+l) f(k, l)} \\
+    \text{is \textbf{equal} to} \\
+    \mathop{\text{cross correlation(i,j)}} \limits_{maximize} = \sum_{k} \sum_{l} 2 h(i+k, j+l) f(k, l)$$
 
 
 ## Self-difference 
