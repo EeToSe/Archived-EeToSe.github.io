@@ -1,7 +1,7 @@
 ---
 layout: default
 title: threshold
-nav_order: 2
+# nav_order: 2
 parent: Computer Vision
 ---
 <head>
