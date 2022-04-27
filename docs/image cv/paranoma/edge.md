@@ -1,8 +1,9 @@
 ---
 layout: default
-title: edge
-nav_order: 3
-parent: Computer Vision
+title: edge detection
+nav_order: 1
+parent: panorama
+grand_parent: Computer Vision
 ---
 <head>
 <meta charset="UTF-8">

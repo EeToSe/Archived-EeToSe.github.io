@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "feature detector"
-nav_order: 4
-parent: Computer Vision
+title: "corner detection"
+nav_order: 2
+parent: panorama
+grand_parent: Computer Vision
 ---
 <head>
 <meta charset="UTF-8">
@@ -14,7 +15,7 @@ parent: Computer Vision
 
 # Corner Detection
 <p align='center'>
-<img src='/assets/image/corner/motivation.png'>
+<img src='/assets/image/panorama/motivation.png'>
 </p>
 **Motivation**:  Shifting a window W in any direction should give a large change in intensity.
 
@@ -92,9 +93,11 @@ $$\lambda_{1}$$ and $$\lambda_{2}$$ are eigenvalues
 $$\operatorname{det}(M)=\lambda_{1} * \lambda_{2} \\
 \operatorname{trace}(\mathrm{M})=\lambda_{1}+\lambda_{2}\\
 \operatorname{det}(M)-a \operatorname{trace}(M)=\lambda_{1} \lambda_{2}-\alpha\left(\lambda_{1}+\lambda_{2}\right)^{2}$$ 
+
 If these estimates are large, $$\lambda_{2}$$ is large.
 
 ## Harris Corner Detection
+[C++ source code](https://github.com/EeToSe/ELEC4622-2019s2/tree/master/project3/project3/task4) implementation.
 1. Compute partial derivatives $$I_{x}$$ and $$I_{y}$$ at each pixel
 2. Compute second moment matrix in a Gaussian window around each pixel
 3. Compute corner response function $$R=\operatorname{det}(M)-\alpha \operatorname{trace}(M)^{2}$$
