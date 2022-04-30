@@ -12,6 +12,9 @@ parent: Resources
 1. TOC
 {:toc}
 
+## [Cambridge 2020-21](https://www.cl.cam.ac.uk/teaching/2021/part1b-75.html)
+- [Programming in C and C++](https://www.cl.cam.ac.uk/teaching/2021/ProgC/materials.html)
+
 ## Zotero + 坚果云
 
 ## Web of science + Google Scholar + sci-hub
