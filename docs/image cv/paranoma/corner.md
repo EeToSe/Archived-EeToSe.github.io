@@ -2,7 +2,7 @@
 layout: default
 title: "corner detection"
 nav_order: 2
-parent: panorama
+parent: fitting and alignment
 grand_parent: Computer Vision
 ---
 <head>

@@ -2,7 +2,7 @@
 layout: default
 title: edge detection
 nav_order: 1
-parent: panorama
+parent: fitting and alignment
 grand_parent: Computer Vision
 ---
 <head>

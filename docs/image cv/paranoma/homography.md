@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "2D transformations"
-nav_order: 3
-parent: panorama
+title: "homography"
+nav_order: 4
+parent: fitting and alignment
 grand_parent: Computer Vision
 ---
 <head>

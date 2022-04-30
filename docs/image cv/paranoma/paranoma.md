@@ -1,12 +1,17 @@
 ---
 layout: default
-title: panorama
+title: 'fitting and alignment'
 has_children: true
 nav_order: 2
 parent: Computer Vision
 ---
 
-# Image stitching aka panorama
+## Fitting
+1. Least squares line fitting
+2. Robust fitting: RANSAC
+3. Hough transform
+
+## Alignment application: panorama
 
 1. Feature detection - detect corners with Harris corner detector.
 2. Feature description - SIFT.

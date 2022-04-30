@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "feature descriptor"
-nav_order: 5
-parent: panorama
+nav_order: 3
+parent: fitting and alignment
 grand_parent: Computer Vision
 ---
 

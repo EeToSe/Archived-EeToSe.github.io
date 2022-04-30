@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "RANSAC"
-nav_order: 4
-parent: panorama
+nav_order: 5
+parent: fitting and alignment
 grand_parent: Computer Vision
 ---
 <head>
