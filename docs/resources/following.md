@@ -5,7 +5,10 @@ nav_order: 4
 parent: Resources
 ---
 
-## Masters mindset 
+## Masters mindset
+- Albert Einstein
+  - Logic will get you from A to B. Imagination will take you everywhere.
+  
 - Richard Feynman 
   - [I dont like honors](https://www.youtube.com/watch?v=f61KMw5zVhg) 
   - [IMAGINE with Richard Feynman](https://www.youtube.com/watch?v=P1ww1IXRfTA)
