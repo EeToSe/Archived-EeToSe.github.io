@@ -34,5 +34,7 @@ parent: Resources
 
 
 ## Programming
-### Students
+- [Chris](https://blog.kowalczyk.info/): sumatrapdf creator
+  - [Essential Python](https://www.programming-books.io/essential/python/)
+  - [Good Programming Practice](https://blog.kowalczyk.info/article/14r/good-programming-practices.html)
 - [William Lin](https://williamlin.io/about): competitive programming
