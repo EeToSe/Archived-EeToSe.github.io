@@ -8,7 +8,7 @@ parent: Algorithms
 
 # Data Structure
 {: .no_toc}
-Document common data structures explained in the course and how they are implemented.
+Data structures - WHAT WHY AND HOW
 ---
 
  
