@@ -1,7 +1,7 @@
 ---
 layout: default
-title: academic resources
-nav_order: 1
+title: tools
+nav_order: 4
 parent: Resources
 ---
 # academic resources 

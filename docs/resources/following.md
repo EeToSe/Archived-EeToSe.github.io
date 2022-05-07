@@ -1,7 +1,7 @@
 ---
 layout: default
 title: following
-nav_order: 4
+nav_order: 2
 parent: Resources
 ---
 
@@ -26,11 +26,12 @@ parent: Resources
 - [Andrej Karpathy](https://karpathy.ai/)
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
   - [Deep Neural Nets: 33 years ago and 33 years from now ](https://iclr-blog-track.github.io/blog/)
+- [Jon Barron](https://jonbarron.info/): Google Research, template blog
 
 ### Phd students
 - [Xinshuo Weng](https://www.xinshuoweng.com/index.html): how to research during PhD
 - [Yufei Ye](https://judyye.github.io/): self presentation and course outline
-- [Jon Barron](https://jonbarron.info/): Google Research, template blog
+
 
 ## Programming
 ### Students
