@@ -1,10 +1,10 @@
 ---
 layout: default
 title: numpy
-nav_order: 1
+nav_order: 2
 # has_children: true
-parent: programming
-grand_parent: Algorithms
+parent: Python
+grand_parent: Programming
 ---
 
 # Array programming with Numpy

@@ -11,6 +11,7 @@ permalink: docs/img-cv
 Related resources: courses, websites 
 {: .fs-6 .fw-300 }
 
+### Computer vision
 - [CV 2021](https://www.cl.cam.ac.uk/teaching/2021/CompVision/) and [2011](https://www.cl.cam.ac.uk/teaching/1011/CompVision/) （online resources): provided by **Cambridge** - Math intensive 
 - [CMU 16-385: Computer Vision](http://16385.courses.cs.cmu.edu/spring2022/):  provided by **CMU** - Demos and projects<br>
 - [CS 231n: Deep Learning for CV](http://cs231n.stanford.edu/) provided by **Standford** - Assignments<br>
@@ -19,4 +20,6 @@ Related resources: courses, websites
 - [CS6670 for PhD](https://www.cs.cornell.edu/courses/cs6670/2021fa/) and [CS5670：Intro](https://www.cs.cornell.edu/courses/cs5670/2021sp/) by **Cornell** - research abilities
 - [Detailed  Documentation](https://staff.fnwi.uva.nl/r.vandenboomgaard/IPCV20162017/index.html) for Image processing and Computer Vision
 
-{: .fs-6 .fw-300 }
+### AI
+- [CS188: Intro to AI](https://inst.eecs.berkeley.edu/~cs188/sp22/) fpr beginners provided by Berkeley
+
