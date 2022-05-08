@@ -11,12 +11,13 @@ parent: Computer Vision
 2. Robust fitting: RANSAC
 3. Hough transform
 
-## Alignment application: panorama
+## Image alignment application: Panorama
 
-1. Feature detection - detect corners with Harris corner detector.
-2. Feature description - SIFT.
-3. Match descriptors and homography estimation - simultaneously using RANSAC.
-4. Stitch together images with homography
+1. Feature detectors 
+2. Feature descriptors
+3. Feature matching - homography estimation 
+4. Robust alignment - RANSAC
+5. Image stitching  
    
 {: .no_toc .text-delta }
 
