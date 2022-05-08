@@ -43,8 +43,28 @@ $$R_{k} \text{: IF (x is } A_{k}) \text{ THEN (y is } B_{k})$$
 5. **Defuzzify the final output fuzzy set** <br> e.g. center of gravity.
    
 ---
+Applications as [homework](https://github.com/EeToSe/image-cv/blob/main/image_analysis/data/ass2/fuzzy%20methods%20experiment.pdf) and [solution]()
 ## Contrast enhancement
+LEFT TO BE DONE
 
+## Boundary extraction
+**Step 1**: Define input and output membership functions
+![png](/assets/image/fuzzy/step1.png) 
+**Step 2-4**: rule 1 and overall membership function
+```python
+mu1 = np.minimum(min(mu_zero_d2, mu_zero_d6), mu_white) # Step 2-3
+mu = np.maximum.reduce([mu1, mu2, mu3, mu4, mu5]) # Step 4
+```
+
+![png](/assets/image/fuzzy/step234.png)
+
+**Step5**:  centroid of gravity
+
+$$
+Z_{5}=\frac{\sum_{Z_{5}=0}^{255} Z_{5} \mu\left(Z_{5}\right)}{\sum_{Z_{5}=0}^{255} \mu\left(Z_{5}\right)}
+$$
+
+![png](/assets/image/fuzzy/boundary.png)
 
 ## Thresholding
 ### OTSU ([code](https://github.com/EeToSe/image-cv/blob/main/cmu_cv/func/otsu.py) implementation)
@@ -58,3 +78,29 @@ $$ \sigma^{2}_{b}(t) = w_{0}(t)w_{1}(t)[\mu_{0}(t) - \mu_{1}(t) ]^{2} $$
 - $$\mu_{0,1}(t)$$ - mean intensity of the class;
 
 ### Fuzzy method
+- For each tested threshold, a point is assigned to the obj/bckgrnd with the membership 0.5~1.0
+- The closer the pixel intensity to the mean of the region, the higher its membership to that region
+- The optimal threshold → the entropy in the image is minimized
+
+Average gray level for background $$\mu_{0}$$ and for object $$\mu_{1}$$
+
+$$\mu_{0}=\sum_{g=0}^{t} g H(g) / \sum_{g=0}^{t} H(g)$$
+
+$$\mu_{1}=\sum_{g=t+1}^{L-1} g H(g) / \sum_{g=t+1}^{L-1} H(g)$$
+
+Membership function of the object/background region:
+
+$$
+\mu_{X}(x)=\left\{\begin{array}{l}
+\frac{1}{1+\frac{\left|x-\mu_{0}\right|}{C}}, x<t \text{for background}\\
+\frac{1}{1+\frac{\left|x-\mu_{1}\right|}{C}}, x \geq t \text{for object}
+\end{array}\right.
+$$
+
+Entropy
+
+$$S(\mu_{X})=-\mu_{X}(x) \ln \mu_{X}(x)-\left(1-\mu_{X}(x)\right) \ln \left(1-\mu_{X}(x)\right)$$
+
+$$E(x) = \sum_{m,n}S(\mu_X(x_{mn}))$$
+
+![png](/assets/image/fuzzy/threshold.png)
