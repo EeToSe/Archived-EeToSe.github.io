@@ -17,3 +17,7 @@ Math related to algorithms, image processing and computer vision.
 - Linear algebra
 - Vector calculus
 - [An Introduction to Statistical Learning](https://www.statlearning.com/online-course) with applications in **R**.
+
+[Background knowledge](https://www.comp.nus.edu.sg/~leowwk/newstudents.html)
+- [NUS cs5240 Theoretical Foundations in Multimedia](https://www.comp.nus.edu.sg/~cs5240/schedule.html)
+- [Clear the obstacles of Mathematics - Syllabus](https://www.comp.nus.edu.sg/~cs6240/syllabus.html)

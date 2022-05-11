@@ -5,7 +5,7 @@ nav_order: 2
 parent: Resources
 ---
 
-## Masters mindset
+## Masters mindset - How to research
 - Albert Einstein
   - Logic will get you from A to B. Imagination will take you everywhere.
   
@@ -14,6 +14,9 @@ parent: Resources
   - [IMAGINE with Richard Feynman](https://www.youtube.com/watch?v=P1ww1IXRfTA)
   - [There's no such thing as MIRACLE](https://www.youtube.com/watch?v=bAX27XRHMH8)
 
+- Richard Hamming - Hamming window/distance
+  - ["You and Your Research"](https://www.youtube.com/watch?v=a1zDuOPkMSw&list=WL&index=7&t=6s)
+ 
 - Donald Knuth
   - [My advice to young people](https://www.youtube.com/watch?v=75Ju0eM5T2c)
   
@@ -27,6 +30,8 @@ parent: Resources
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
   - [Deep Neural Nets: 33 years ago and 33 years from now ](https://iclr-blog-track.github.io/blog/)
 - [Jon Barron](https://jonbarron.info/): Google Research, template blog
+- [Sreenivas B. Youtube](https://www.youtube.com/watch?v=Ijc-9L2iXEc&list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW) ZEISS Head of Digital Solutions 
+- [Yuxin Wu](https://ppwwyyxx.com/) from stitching
 
 ### Phd students
 - [Xinshuo Weng](https://www.xinshuoweng.com/index.html): how to research during PhD

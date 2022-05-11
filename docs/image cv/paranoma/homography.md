@@ -33,7 +33,7 @@ After the [feature detection](https://eetose.github.io/docs/image%20cv/corner/),
   - how do we solve for this transformation in given matches?
   
 ## 2D planar transformations
-![png](/assets/image/feature%20descriptor/transformation.jpg)
+![png](/assets/image/panorama/transformation.jpg)
 
 ### Scaling
 
@@ -84,9 +84,9 @@ Excellent videos: [Projective geometry](https://www.youtube.com/watch?v=NYK0GBQV
 ### Why we bring in this?
 Concepts first introduced in [translation](#translation) where $$\overline{\mathbf{x}} = (x, y, 1)$$ is the augmented vector. <br>
 
-![png](/assets/image/feature%20descriptor/pinhole.png) <br> 
+![png](/assets/image/panorama/pinhole.png) <br> 
 Consequences of such projection could see the below picture.<br>
-![png](/assets/image/feature%20descriptor/consequence.png)
+![png](/assets/image/panorama/consequence.png)
 1. Farther away objects are smaller $$\frac{Y+h}{Z} - \frac{Y}{Z} = \frac{h}{Z}$$
 2. Parallel lines converge at a point.
 3. Parallel planes converge! *消失的地平线*
