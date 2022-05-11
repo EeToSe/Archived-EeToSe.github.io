@@ -11,7 +11,7 @@ parent: Resources
 - UC, Merced [Vision and Learning Lab](http://vllab.ucmerced.edu/)
 - Columbia University [Computer Vision Laboratory](https://www.cs.columbia.edu/CAVE/)
 - 中科院深圳先进院 [多媒体研究中心](http://mmlab.siat.ac.cn/) 客座学生？
-
+- Cihang Xie [University of California, Santa Cruz](https://cihangxie.github.io/)
 
 
 ## internship
