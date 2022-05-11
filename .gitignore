@@ -5,9 +5,6 @@ _site
 vendor
 docs/template.md
 .vscode/settings.json
-
-
 docs/template.html
-docs/linux/linux.md
-docs/projects/projects.md
 
+docs/projects/projects.md
