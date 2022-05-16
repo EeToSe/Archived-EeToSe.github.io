@@ -25,6 +25,10 @@ parent: Resources
 
 
 ## CV related
+### Academic 
+- [陈丹琦](https://www.cs.princeton.edu/~danqic/) Princeton AP
+- [马腾宇](https://ai.stanford.edu/~tengyuma/) Stanford AP <u>long term effect 切忌急功近利</u>
+ 
 ### Industry
 - [Andrej Karpathy](https://karpathy.ai/)
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
