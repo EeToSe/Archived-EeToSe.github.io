@@ -34,7 +34,7 @@ $R_{k} \text{: IF (x is } A_{k}) \text{ THEN (y is } B_{k})$
 5. **Defuzzify the final output fuzzy set** <br> e.g. center of gravity.
    
 ---
-Applications as [homework](https://github.com/EeToSe/image-cv/blob/main/image_analysis/data/ass2/fuzzy%20methods%20experiment.pdf) and [solution]()
+Applications as [homework](https://github.com/EeToSe/image-cv/blob/main/image_analysis/data/ass2/fuzzy%20methods%20experiment.pdf) and [solution](/assets/algorithm/ass2-solution.pdf)
 ## Contrast enhancement
 LEFT TO BE DONE
 
