@@ -5,13 +5,6 @@ nav_order: 4
 parent: fitting and alignment
 grand_parent: Computer Vision
 ---
-<head>
-<meta charset="UTF-8">
-  <title>Katex</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-</head>
 
 # 2D transformations
 {: .no_toc }
@@ -82,12 +75,12 @@ $$
 Or projective coordinate, homogeneous is damn confusing terminology. <br>
 Excellent videos: [Projective geometry](https://www.youtube.com/watch?v=NYK0GBQVngs) provided by [NJ Wildberger](https://web.maths.unsw.edu.au/~norman/), **UNSW** Prof！
 ### Why we bring in this?
-Concepts first introduced in [translation](#translation) where $$\overline{\mathbf{x}} = (x, y, 1)$$ is the augmented vector. <br>
+Concepts first introduced in [translation](#translation) where $\overline{\mathbf{x}} = (x, y, 1)$ is the augmented vector. <br>
 
 ![png](/assets/image/panorama/pinhole.png) <br> 
 Consequences of such projection could see the below picture.<br>
 ![png](/assets/image/panorama/consequence.png)
-1. Farther away objects are smaller $$\frac{Y+h}{Z} - \frac{Y}{Z} = \frac{h}{Z}$$
+1. Farther away objects are smaller $\frac{Y+h}{Z} - \frac{Y}{Z} = \frac{h}{Z}$
 2. Parallel lines converge at a point.
 3. Parallel planes converge! *消失的地平线*
 
@@ -98,7 +91,7 @@ We can only understand the 2D projection in the 3D homogeneous coordinate.
 <em>Cartesian plane overlaid in the homogeneous coordinate</em>
 </p>
 
-The $$\textcolor{orange}{homogenous}$$(scale invariant) representation of a 2D point $$ \mathbf{x} = (x,y)$$ is a line L from origin through $$\widetilde{\mathbf{x}} = (\widetilde{x}, \widetilde{y}, \widetilde{z})$$. The third coordinate $$\widetilde{z}$$ is fictitious(虚构) such that:
+The $\color{orange}{homogenous}$ (scale invariant) representation of a 2D point $ \mathbf{x} = (x,y)$ is a line L from origin through $\widetilde{\mathbf{x}} = (\widetilde{x}, \widetilde{y}, \widetilde{z})$. The third coordinate $\widetilde{z}$ is fictitious(虚构) such that:
 
 $$\mathbf{\widetilde{x}} \equiv\left[\begin{array}{c}
 \widetilde{x} \\
@@ -114,15 +107,16 @@ $$\mathbf{\widetilde{x}} \equiv\left[\begin{array}{c}
 \end{array}\right] = 
 \left[\begin{array}{l} x\\ y \end{array}\right]
 $$
-(In case $$\tilde{z}=0$$ "point at infinity")<br>
-$$\textcolor{red}{Insights}$$: Transform $$\mathbf{homogenous}$$ (scale invariant) 3D coordinates to ordinary cartesian 2D. <br>
-The $$\textcolor{orange}{homogenous}$$ representation of a 2D line:
+
+(In case $\tilde{z}=0$ "point at infinity")<br>
+$\color{red}{Insights}$: Transform $\mathbf{homogenous}$ (scale invariant) 3D coordinates to ordinary cartesian 2D. <br>
+The $\color{orange}{homogenous}$ representation of a 2D line:
 
 $$
 \mathbf{\widetilde{x} \cdot \mathbf{\widetilde{l}} = ax+by+c=0} 
 $$
 
-Where $$\mathbf{\widetilde{l}=(a,b,c)}$$ could be normalized as $$\mathbf{\widetilde{l}=(\mathbf{n}, d)}$$
+Where $\mathbf{\widetilde{l}=(a,b,c)}$ could be normalized as $\mathbf{\widetilde{l}=(\mathbf{n}, d)}$
 <p align = "center">
 <img src="/assets/image/panorama/line.jpg" alt="hi" class="inline"/><br>
 <em>2D line equation</em>
@@ -155,7 +149,7 @@ $$
 ### Projective transform
 
 $$
-  {\widetilde\mathbf{x}}^{\prime}= \widetilde{\mathbf{H}} \widetilde{\mathbf{x}} \quad \quad
+  {\widetilde{\mathbf{x}}}^{\prime}= \widetilde{\mathbf{H}} \widetilde{\mathbf{x}} \quad \quad
   \left[\begin{array}{l}
 {\tilde{x}}^{\prime} \\
 {\tilde{y}}^{\prime} \\
@@ -169,7 +163,6 @@ h_{31} & h_{32} & h_{33}
 \tilde{y} \\
 \tilde{z}
 \end{array}\right]\\
-\text{homography}
 $$
 
 ### Hierarchy of 2D coordinate transformations
@@ -234,7 +227,7 @@ y \\
  -->
 
 ## [Computing homographys](https://www.youtube.com/watch?v=l_qjO4cM74o&list=PL2zRqk16wsdp8KbDfHKvPYNGF2L-zQASc&index=5)
-**Task:** given a set of matching features/points between *source* and *destination* images, find the $$\textcolor{orange}{\text{homography H}}$$ that best fits.
+**Task:** given a set of matching features/points between *source* and *destination* images, find the $\color{orange}{\text{homography H}}$ that best fits.
 
 $$\left[\begin{array}{c}x_{d} \\ y_{d} \\ 1\end{array}\right] \equiv\left[\begin{array}{c}\tilde{x}_{d} \\ \tilde{y}_{d} \\ \tilde{z}_{d}\end{array}\right]=\left[\begin{array}{lll}h_{11} & h_{12} & h_{13} \\ h_{21} & h_{22} & h_{23} \\ h_{31} & h_{32} & h_{33}\end{array}\right]\left[\begin{array}{c}x_{s} \\ y_{s} \\ 1\end{array}\right]$$
 
@@ -261,14 +254,14 @@ We know that:
 $$\|\mathbf{A} \mathbf{h}\|^{2}=(\mathbf{A} \mathbf{h})^{T}(\mathbf{A} \mathbf{h})=\mathbf{h}^{T} A^{T} A \mathbf{h} 
 \quad \text{and} \quad\|\mathbf{h}\|^{2}=\mathbf{h}^{T} \mathbf{h}=1$$
 
-Define Loss function $$L(\mathbf{h}, \lambda)$$ :
+Define Loss function $L(\mathbf{h}, \lambda)$:
 
 $$
 L(\mathbf{h}, \lambda)=\mathbf{h}^{T} A^{T} A \mathbf{h}-\lambda\left(\mathbf{h}^{T} \mathbf{h}-1\right)
 $$
 
-Taking derivatives of $$L(\mathbf{h}, \lambda)$$ w.r.t $$\mathbf{h}$$: 
+Taking derivatives of $L(\mathbf{h}, \lambda)$ w.r.t $\mathbf{h}$: 
 
 $$A^{T} A \mathbf{h}=\lambda \mathbf{h}$$
 
-Eigenvector $$\mathbf{h}$$ with smallest eigenvalue $$\lambda$$ of matrix $$A^{T} A$$ minimizes the loss function $$L(\mathbf{h})$$.
+Eigenvector $\mathbf{h}$ with smallest eigenvalue $\lambda$ of matrix $A^{T} A$ minimizes the loss function $L(\mathbf{h})$.

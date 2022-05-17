@@ -11,9 +11,9 @@ Projects,  (un)supervised learning, Bayesian
 {: .fs-6 .fw-300 }
 
 ### projects to work on 
-- Bags of words
+- CMU ass4: Scene recognition with bag of words 
 - Speech Signal Processing
-- Basic <u>classification/clustering/regression</u> implementations
+- Basic algorithms <u>classification/clustering/regression</u> implementations
 
 ### courses
 - [CMU Intro to ML](http://www.cs.cmu.edu/~mgormley/courses/10601/schedule.html) & [lecture videos](https://www.bilibili.com/video/BV15Z4y1K7Cd?spm_id_from=333.999.0.0)
