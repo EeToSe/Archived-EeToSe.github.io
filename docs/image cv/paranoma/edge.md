@@ -5,13 +5,13 @@ nav_order: 1
 parent: fitting and alignment
 grand_parent: Computer Vision
 ---
-<head>
+<!-- <head>
 <meta charset="UTF-8">
   <title>Katex</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-</head>
+</head> -->
 
 # Edge Detection
 
@@ -20,17 +20,16 @@ An edge is a place of rapid change in the image intensity
 function.
 
 ### Partial derivatives of an image
-for 2D function $$f(x, y)$$, the partial derivative w.r.t. $$x$$ is <br>
-$$
-\frac{\partial f(x, y)}{\partial x}=\lim _{\varepsilon \rightarrow 0} \frac{f(x+\varepsilon, y)-f(x, y)}{\varepsilon}
-$$ <br>
+for 2D function $f(x, y)$, the partial derivative w.r.t. $x$ is <br>
+
+$$\frac{\partial f(x, y)}{\partial x}=\lim _{\varepsilon \rightarrow 0} \frac{f(x+\varepsilon, y)-f(x, y)}{\varepsilon}$$
+
 For **discrete data**, we can approximate using finite differences: <br>
-$$
-\frac{\partial f(x, y)}{\partial x}=\frac{f(x+1, y)-f(x, y)}{1}
-$$
+
+$$\frac{\partial f(x, y)}{\partial x}=\frac{f(x+1, y)-f(x, y)}{1}$$
 
 ### Gradient: local extrema
-$$\bigtriangledown f =  (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})$$, pronounced as **Del**
+$\bigtriangledown f =  (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y})$, pronounced as **Del**
 
 <img src='/assets/image/edge_files/gradient.jpg'>
 
@@ -38,7 +37,7 @@ $$\bigtriangledown f =  (\frac{\partial f}{\partial x}, \frac{\partial f}{\parti
 <img src='/assets/image/edge_files/operator.jpg'>
 Kernel size affects localization and noise sensitive.
 
-## Laplacian($$\bigtriangledown^{2}$$) as edge detector: zero-crossings
+## Laplacian($\bigtriangledown^{2}$) as edge detector: zero-crossings
 <!-- <img src='/assets/image/edge_files/laplacian.jpg'> -->
 
 $$\bigtriangledown^{2} f = \frac{\partial^{2} f}{\partial x^{2}}+\frac{\partial^{2} f}{\partial y^{2}}$$
