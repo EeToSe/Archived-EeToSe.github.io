@@ -87,7 +87,7 @@ Consequences of such projection could see the below picture.<br>
 ### Cartesian -> Homogeneous
 We can only understand the 2D projection in the 3D homogeneous coordinate.
 <p align = "center">
-<img src="/assets/image/panorama/homo.png" alt="hi" class="inline"/><br>
+<img src="/assets/image/panorama/homo.png" width = 500/><br>
 <em>Cartesian plane overlaid in the homogeneous coordinate</em>
 </p>
 
@@ -264,4 +264,15 @@ Taking derivatives of $L(\mathbf{h}, \lambda)$ w.r.t $\mathbf{h}$:
 
 $$A^{T} A \mathbf{h}=\lambda \mathbf{h}$$
 
-Eigenvector $\mathbf{h}$ with smallest eigenvalue $\lambda$ of matrix $A^{T} A$ minimizes the loss function $L(\mathbf{h})$.
+<u>SVD explanation</u>:
+
+$$
+\left\|\mathbf{U S V}^{T} \mathbf{h}\right\|^{2}=\mathbf{h}^{T} \mathbf{V S} \mathbf{S}^{T} \mathbf{U}^{T} \mathbf{U S V}^{T} \mathbf{h}=\mathbf{h}^{T} \mathbf{V} \mathbf{S}^{T} \mathbf{S V}^{T} \mathbf{h}=\left\|\mathbf{S} \mathbf{V}^{T} \mathbf{h}\right\|^{2}
+$$
+
+Where $\mathbf{A}=\mathbf{U S V}^{T}$, $\mathbf{U}$ and $\mathbf{V}$ are orthonormal and $\mathbf{S}$ is diagonal. And the equation could be furthered developed as:
+
+$$\|\mathbf{S} \mathbf{y}\| \text{ subject to }  \|\mathbf{y}\|=1 \text{ where } \mathbf{y} = \mathbf{V}^{T} \mathbf{h}$$ 
+
+<u>Conclusion</u>: Eigenvector $\mathbf{h}$ with smallest eigenvalue $\lambda$ of matrix $A^{T} A$ minimizes the loss function $L(\mathbf{h})$.<br>
+OR since $\mathbf{S}$ is diagonal and the eigenvalues are sorted in descending order, let $\mathbf{y}=[0,0, \ldots, 1]^{T}$ would minimize $\|\mathbf{S y}\|$. So the solution $\mathbf{h}=\mathbf{V} \mathbf{y}$ would be the last column vector of $\mathbf{V}$.

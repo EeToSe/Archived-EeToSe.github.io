@@ -14,6 +14,8 @@
         "README.md": true
         "Gemfile*": true
         ".jekyll-cache": true
-        "_sass":true
+        "_sass": true
+        "_site": true
+        "assets/image/jedi.jpeg":true
       }
 }
