@@ -4,7 +4,5 @@ _site
 .jekyll-metadata
 vendor
 docs/template.md
-.vscode/settings.json
 docs/template.html
-
 docs/projects/projects.md

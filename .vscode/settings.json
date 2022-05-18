@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "homography",
+        "homographys",
+        "LSTM",
+        "smartcampus",
+        "Tinc",
+        "UNSW"
+    ]
+
+    "files.exclude": {
+        "favicon.ico": true
+        "404.html": true
+        "README.md": true
+        "Gemfile*": true
+        ".jekyll-cache": true
+        "_sass":true
+      }
+}
