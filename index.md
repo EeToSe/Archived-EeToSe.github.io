@@ -13,9 +13,25 @@ It takes half your life before you discover life is a do-it-yourself project
 
 ---
 <p align = "center">
-<img src="assets/image/jedi.jpeg" alt="hi" class="inline"/>
+<img src="assets/image/jedi.jpeg" alt="hi" class="inline" width="800"/><br>
 <em>Do or do not... there is no try.</em>
 </p>
+
+<!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Preview dark color scheme';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script> -->
 
 ## Inspiration
 There are two things essential if you want to enhance your Jedi self-confidence:
