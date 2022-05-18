@@ -18,7 +18,7 @@ More should refer to this book: Fuzzy techniques in image processing.
 ## Fuzzy Rule Base and Inference Engine
 Approximate an unknown I/O mapping by inference from a set of fuzzy rules (**IF-THEN**).
 
-![png](/assets/image/fuzzy/scheme.jpg)<br>
+![](/assets/image/fuzzy/scheme.jpg)<br>
 <em> General scheme of a fuzzy inference system</em>
 
 **The fuzzy inference engine** combines the rules in the rule base according to approximate reasoning theory to produce 
@@ -35,8 +35,16 @@ $R_{k} \text{: IF (x is } A_{k}) \text{ THEN (y is } B_{k})$
    
 ---
 Applications as [homework](https://github.com/EeToSe/image-cv/blob/main/image_analysis/data/ass2/fuzzy%20methods%20experiment.pdf) and [solution](/assets/algorithm/ass2-solution.pdf)
+
 ## Contrast enhancement
-LEFT TO BE DONE
+
+<p align = "center">
+<img src="/assets/image/fuzzy/member.png" alt="hi" class="inline" width="320"/>
+<img src="/assets/image/fuzzy/einstein.png" alt="hi" class="inline" width="530"/> <br>
+<em>Look at gray hair and crossed fingers</em>
+</p>
+
+$$ v_{0} = \frac{\mu_{dark}(z_{0})\times v_{d} + \mu_{gray}(z_{0})\times v_{g} + \mu_{bright}(z_{0})\times v_{b}}{\mu_{dark}(z_{0})+\mu_{gray}(z_{0})+\mu_{bright}(z_{0})}$$
 
 ## Boundary extraction
 **Step 1**: Define input and output membership functions
