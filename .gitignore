@@ -3,6 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-docs/template.md
-docs/template.html
+docs/linux/linux.md
 docs/projects/projects.md
+docs/resources/resources.md
+_config.yml
