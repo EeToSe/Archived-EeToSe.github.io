@@ -290,3 +290,62 @@ $\color{blue}{Duality}$: "dual" the linear transformation which the vector encod
 <img src="/assets/image/linAlg/essence/dual_2.png" width = 380/>
 </p>
 
+## Cross products
+2-D version of the cross product $\overrightarrow{v}\times\overrightarrow{w}$
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product.png" width = 600/>
+</p>
+3-D version of the cross product $\overrightarrow{v}\times\overrightarrow{w} = \overrightarrow{p}$
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product_3d.png" width = 600/>
+</p>
+
+### Under the light of linear transformation
+Consider the function below, $1\times3$ matrix take 3d vector to the number line.
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product_func.png" width = 460/>
+<img src="/assets/image/linAlg/essence/cross_product_func2.png" width = 340/>
+</p>
+
+Then this matrix multiplication can be written as dot product.
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product_func3.png" width = 600/>
+</p>
+
+We ask what vector $\overrightarrow{p}$ has the above property <br>
+**Equation right** is determinant - the volume of parallepiped
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product_func5.png" width = 600/>
+</p>
+Therefore we know the orientation and length of $\overrightarrow{p}$
+<p align="center">
+<img src="/assets/image/linAlg/essence/cross_product_func6.png" width = 600/>
+</p>
+
+## Cramer's rule
+### Special case: orthonormal matrix
+$T$ is "Orthonormal" $\Rightarrow$ $T(\overrightarrow{v}) \cdot T(\overrightarrow{w})= \overrightarrow{v} \cdot \overrightarrow{w}$ for all $\overrightarrow{v}$ and $\overrightarrow{w}$.<br>
+If $\overrightarrow{v} = [1 \quad 0]^{T}$ and $\overrightarrow{w} = [x \quad y]^{T}$, 
+then as the example below we have:
+<p align="center">
+<img src="/assets/image/linAlg/essence/cramer_rule.png" width = 600/>
+</p>
+
+### geometric understanding for the input vector coordinates
+Use the determinant in 2d(area) and 3d(volume) to represent the coordinates.
+<p align="center">
+<img src="/assets/image/linAlg/essence/cramer_rule2.png" width = 350/>
+<img src="/assets/image/linAlg/essence/cramer_rule3.png" width = 460/>
+</p>
+
+### Transformation scales the area
+关键在于将坐标想象成由输入向量与基向量所形成矩阵的determinant.
+<p align="center">
+<img src="/assets/image/linAlg/essence/cramer_rule4.png" width = 600/>
+</p>
+
+3D case: think of z is the volume constructed with $\hat{i}$ and $\hat{j}$ and input vector. <br>
+Similar to 2D case: $\color{orange}{\text{Volume}} = det(A)z$
+<p align="center">
+<img src="/assets/image/linAlg/essence/cramer_rule5.png" width = 600/>
+</p>
