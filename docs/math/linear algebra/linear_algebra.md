@@ -6,7 +6,10 @@ has_children: true
 parent: Math
 ---
 
+### Essence of Linear Algebra
+<u>Geometric intuition</u>: an introduction to [visualizing](https://www.3blue1brown.com/topics/linear-algebra) what matrices are really doing
 
+### Ten key points from Gilbert
 Here are key computations and some of the ideas behind them:
 
 1. Solving Ax = b for square systems by elimination (pivots, multipliers, back substitution, invertibility of A, factorization into A = LU)
