@@ -149,7 +149,43 @@ $$\underbrace{\left[\begin{array}{ll}1 & 1 \\ 0 & 1\end{array}\right]}_{\text {S
 </p>
 
 ### General form of matrix multiplication
-[todo]
+
+$$
+\begin{aligned}
+&{\left[\begin{array}{ll}
+a & b \\
+c & d
+\end{array}\right]\left[\begin{array}{l}
+e \\
+g
+\end{array}\right]=e\left[\begin{array}{l}
+a \\
+c
+\end{array}\right]+g\left[\begin{array}{l}
+b \\
+d
+\end{array}\right]=\left[\begin{array}{l}
+a e+b g \\
+c e+d g
+\end{array}\right]} \\
+&{\left[\begin{array}{ll}
+a & b \\
+c & d
+\end{array}\right]\left[\begin{array}{l}
+f \\
+h
+\end{array}\right]=f\left[\begin{array}{l}
+a \\
+c
+\end{array}\right]+h\left[\begin{array}{l}
+b \\
+d
+\end{array}\right]=\left[\begin{array}{l}
+a f+b h \\
+c f+d h
+\end{array}\right]}
+\end{aligned}
+$$
 
 ---
 ## Determinant
@@ -191,9 +227,8 @@ $\color{blue}{Essence}$: solving $A\overrightarrow{x}= \overrightarrow{v}$ means
 
 <p align="center">
 <img src="/assets/image/linAlg/essence/transformation_ax=v.svg" width =600/>
+<img src="/assets/image/linAlg/essence/linear_equation.png" width =600/>
 </p>
-
-[todo]
 
 The way we think about solutions to this equation depends on whether the transformation associated with A squishes all of space into a lower dimension ($\color{orange}{det(A)=0}$), like a line or a point, or if it leaves everything spanning the full two dimensions where it started ($\color{orange}{det(A)\neq0}$).
 
@@ -269,16 +304,28 @@ Connection between linear transformations that take vectors to numbers and vecto
 <img src="/assets/image/linAlg/essence/12_matrix_eg.png" width = 600/>
 </p>
 
-**Unit vector**: $\text{linear transformation from 2D to number line}  \Leftrightarrow \text{projection length aka } \color{blue}{\text{dot product}} $
+### Unit vector with $\hat{i}$ and $\hat{j}$ 
+$\text{linear transformation from 2D to number line}  \Leftrightarrow \text{projection length aka } \color{blue}{\text{dot product}} $
 
 <p align="center">
 <img src="/assets/image/linAlg/essence/connection_eg.png" width = 400/>
 <img src="/assets/image/linAlg/essence/projection.png" width = 400/>
 </p>
+Matrix-vector multiplication $\Leftrightarrow$ Dot product
 
-[todo]
+$$ \left[\begin{array}{ll}u_{x} & u_{y}\end{array}\right]\left[\begin{array}{l}x \\ y\end{array}\right]=u_{x} \cdot x+u_{y} \cdot y$$
 
-Summary: <u>applying a 2d-to-1d transformation is equivalent to taking a dot product</u>.
+$$
+\left[\begin{array}{l}
+u_{x} \\
+u_{y}
+\end{array}\right] \cdot\left[\begin{array}{l}
+x \\
+y
+\end{array}\right]=u_{x} \cdot x+u_{y} \cdot y
+$$
+
+Summary: <u>applying a 2d-to-1d linear transformation is associated with some vector in 2d space</u>.
 <p align="center">
 <img src="/assets/image/linAlg/essence/dot_product_summary.png" width = 600/>
 </p>
@@ -339,6 +386,7 @@ Use the determinant in 2d(area) and 3d(volume) to represent the coordinates.
 </p>
 
 ### Transformation scales the area
+The key is to interpret the coordinates as the determinant of the matrix formed by the input vector and corresponding basis vector.
 关键在于将坐标想象成由输入向量与基向量所形成矩阵的determinant.
 <p align="center">
 <img src="/assets/image/linAlg/essence/cramer_rule4.png" width = 600/>
@@ -349,3 +397,43 @@ Similar to 2D case: $\color{orange}{\text{Volume}} = det(A)z$
 <p align="center">
 <img src="/assets/image/linAlg/essence/cramer_rule5.png" width = 600/>
 </p>
+
+## Change of basis
+Some implications behind the vector:
+<p align="center">
+<img src="/assets/image/linAlg/essence/basis_1.png" width = 530/>
+<img src="/assets/image/linAlg/essence/basis_2.png" width = 290/>
+</p>
+
+How we could interpret from one coordinate system to another.
+<p align="center">
+<img src="/assets/image/linAlg/essence/basis_3.png" width = 600/>
+</p>
+From Jeniffer system to ours, matrix-vector multiplication
+
+$$
+\left[\begin{array}{cc}
+2 & -1 \\
+1 & 1
+\end{array}\right]\left[\begin{array}{c}
+-1 \\
+2
+\end{array}\right]=-1\left[\begin{array}{c}
+2 \\
+1
+\end{array}\right]+2\left[\begin{array}{c}
+-1 \\
+1
+\end{array}\right]=\left[\begin{array}{c}
+-4 \\
+1
+\end{array}\right]
+$$
+
+
+<p align="center">
+<img src="/assets/image/linAlg/essence/basis_5.png" width = 350/>
+<img src="/assets/image/linAlg/essence/basis_6.png" width = 350/>
+</p>
+
+$$\underbrace{\left[\begin{array}{cc}2 & -1 \\ 1 & 1\end{array}\right]^{-1}}_{\text {inverse}} =  \underbrace{\left[\begin{array}{cc} \frac{1}{3} & \frac{1}{3} \\ -\frac{1}{3} & \frac{2}{3}\end{array}\right]}_{\text {inverse change of basis matrix}} \left[\begin{array}{cc} -4 \\ 1 \end{array}\right] = \underbrace{\left[\begin{array}{cc} -1\\ 2\end{array}\right]}_{\text {same vector in her language}} $$

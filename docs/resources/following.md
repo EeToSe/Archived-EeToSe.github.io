@@ -34,6 +34,7 @@ parent: Resources
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
   - [Deep Neural Nets: 33 years ago and 33 years from now ](https://iclr-blog-track.github.io/blog/)
 - [Jon Barron](https://jonbarron.info/): Google Research, template blog
+- [Tom Preston](https://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html): Github cofounder
 - [Sreenivas B. Youtube](https://www.youtube.com/watch?v=Ijc-9L2iXEc&list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW) ZEISS Head of Digital Solutions 
 - [Yuxin Wu](https://ppwwyyxx.com/) from stitching
 
