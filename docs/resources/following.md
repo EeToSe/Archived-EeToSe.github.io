@@ -24,11 +24,12 @@ parent: Resources
   - [103 Bits of Advice I Wish I Had Known](https://kk.org/kk/)
 
 
-## CV related
+## Research
 ### Academic 
 - [陈丹琦](https://www.cs.princeton.edu/~danqic/) Princeton AP
 - [马腾宇](https://ai.stanford.edu/~tengyuma/) Stanford AP <u>long term effect 切忌急功近利</u>
- 
+- [张辉](http://www.cs.cmu.edu/~hzhang/) and from his link [Advice on Research and Writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
+
 ### Industry
 - [Andrej Karpathy](https://karpathy.ai/)
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
@@ -39,6 +40,7 @@ parent: Resources
 - [Yuxin Wu](https://ppwwyyxx.com/) from stitching
 
 ### Phd students
+- [Xinjing Zhou](https://zxjcarrot.github.io/): inspiration we can do it!
 - [Xinshuo Weng](https://www.xinshuoweng.com/index.html): how to research during PhD
 - [Yufei Ye](https://judyye.github.io/): self presentation and course outline
 

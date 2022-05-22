@@ -407,7 +407,8 @@ Some implications behind the vector:
 
 How we could interpret from one coordinate system to another.
 <p align="center">
-<img src="/assets/image/linAlg/essence/basis_3.png" width = 600/>
+<img src="/assets/image/linAlg/essence/basis_3.png" width = 400/>
+<img src="/assets/image/linAlg/essence/basis_7.png" width = 400/>
 </p>
 From Jeniffer system to ours, matrix-vector multiplication
 
@@ -432,8 +433,26 @@ $$
 
 
 <p align="center">
-<img src="/assets/image/linAlg/essence/basis_5.png" width = 350/>
-<img src="/assets/image/linAlg/essence/basis_6.png" width = 350/>
+<img src="/assets/image/linAlg/essence/basis_5.png" width = 400/>
+<img src="/assets/image/linAlg/essence/basis_6.png" width = 400/>
 </p>
 
 $$\underbrace{\left[\begin{array}{cc}2 & -1 \\ 1 & 1\end{array}\right]^{-1}}_{\text {inverse}} =  \underbrace{\left[\begin{array}{cc} \frac{1}{3} & \frac{1}{3} \\ -\frac{1}{3} & \frac{2}{3}\end{array}\right]}_{\text {inverse change of basis matrix}} \left[\begin{array}{cc} -4 \\ 1 \end{array}\right] = \underbrace{\left[\begin{array}{cc} -1\\ 2\end{array}\right]}_{\text {same vector in her language}} $$
+
+### How to translate a vector
+Vectors aren't the only thing with coordinates(which coordinate system it is in?) <br>
+**Transformed vector** in her language
+<p align="center">
+<img src="/assets/image/linAlg/essence/basis_8.png" width = 600/>
+</p>
+
+$\color{blue}{\text{Example}}$: 90 degree of rotation from $[1 \quad 2]^{T}$to $[-1 \quad 1]^{T}$ in her coordinate system.
+<p align="center">
+<img src="/assets/image/linAlg/essence/basis_9.png" width = 500/>
+<img src="/assets/image/linAlg/essence/basis_10.png" width = 300/>
+</p>
+
+$A_{-1} \textcolor{blue}{M} A$ suggests a mathematical sort of empathy
+- a transformation of some kind, as you see it; 
+- the outer two matrices represent the shift in perspective;    
+- the full matrix product represents that same transformation but as some else sees it.
