@@ -39,8 +39,8 @@ Applications as [homework](https://github.com/EeToSe/image-cv/blob/main/image_an
 ## Contrast enhancement
 
 <p align = "center">
-<img src="/assets/image/fuzzy/member.png" alt="hi" class="inline" width="320"/>
-<img src="/assets/image/fuzzy/einstein.png" alt="hi" class="inline" width="530"/> <br>
+<img src="/assets/image/fuzzy/member.png" alt="hi" class="inline" width="300"/>
+<img src="/assets/image/fuzzy/einstein.png" alt="hi" class="inline" width="500"/> <br>
 <em>Look at gray hair and crossed fingers</em>
 </p>
 
@@ -98,7 +98,7 @@ $$
 
 Entropy
 
-$$S(\mu_{X})=-\mu_{X}(x) \ln \mu_{X}(x)-\left(1-\mu_{X}(x)\right) \ln \left(1-\mu_{X}(x)\right)$$
+$$S(\mu_{X})=-\mu_{X}(x) \ln \mu_{X}(x)-\left[1-\mu_{X}(x)\right] \ln \left(1-\mu_{X}(x)\right)$$
 
 $$E(x) = \sum_{m,n}S(\mu_X(x_{mn}))$$
 

@@ -23,14 +23,18 @@ parent: Resources
 - Kevin Kelly
   - [103 Bits of Advice I Wish I Had Known](https://kk.org/kk/)
 
+- Grigori Yakovlevich Perelman
+  - [Wiki](https://zh.m.wikipedia.org/zh/%E6%A0%BC%E9%87%8C%E6%88%88%E9%87%8C%C2%B7%E4%BD%A9%E9%9B%B7%E5%B0%94%E6%9B%BC) focus on only the important questions
 
 ## Research
 ### Academic 
 - [陈丹琦](https://www.cs.princeton.edu/~danqic/) Princeton AP
-- [马腾宇](https://ai.stanford.edu/~tengyuma/) Stanford AP <u>long term effect 切忌急功近利</u>
+- [马腾宇](https://ai.stanford.edu/~tengyuma/) Stanford AP <u>long term effect</u> 切忌急功近利
 - [张辉](http://www.cs.cmu.edu/~hzhang/) and from his link [Advice on Research and Writing](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html)
 
+
 ### Industry
+- [Kaiming He](http://kaiminghe.com/) ResNets 
 - [Andrej Karpathy](https://karpathy.ai/)
   - [PyTorch at Tesla](https://www.youtube.com/watch?v=oBklltKXtDE)
   - [Deep Neural Nets: 33 years ago and 33 years from now ](https://iclr-blog-track.github.io/blog/)
