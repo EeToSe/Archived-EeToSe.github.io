@@ -17,6 +17,7 @@ Just use the pixel values of the patch!
 Fine iff geometry and appearance is unchanged.
 
 ## SIFT
-Explanation for Gaussian pyramids and DoG pyramids(http://weitz.de/sift/index.html)
+[Explanation](http://weitz.de/sift/index.html) for Gaussian pyramids and DoG pyramids
+[A jupyter-notebook example](https://github.com/EeToSe/image-cv/blob/main/image_analysis/src/ass3/sift_matching.ipynb)
 <!--  we must determine which features come from corresponding locations in different images.
 Corner detector does not the degree of overlap between two patches. it just look for good corners. -->

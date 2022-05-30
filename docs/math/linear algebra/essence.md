@@ -452,7 +452,26 @@ $\color{blue}{\text{Example}}$: 90 degree of rotation from $[1 \quad 2]^{T}$to $
 <img src="/assets/image/linAlg/essence/basis_10.png" width = 300/>
 </p>
 
-$A_{-1} \textcolor{blue}{M} A$ suggests a mathematical sort of empathy
-- a transformation of some kind, as you see it; 
-- the outer two matrices represent the shift in perspective;    
-- the full matrix product represents that same transformation but as some else sees it.
+$A^{-1} \color{blue}{M} A$ suggests a mathematical sort of empathy
+- $\color{blue}{M}$ is transformation of some kind, as you see it; 
+- The outer two matrices represent the shift in perspective;    
+- The full matrix product represents that same transformation but as someone else sees it.
+
+## Eigen-everything
+### Consider the linear transformation 
+Most vectors get knocked off their span during the transformation while the linear transformation acts as a scalar for some vectors (stay on Span)
+
+<p align="center">
+<img src="/assets/image/linAlg/essence/eigen2.png" width = 390/>
+<img src="/assets/image/linAlg/essence/eigen3.png" width = 430/>
+<img src="/assets/image/linAlg/essence/eigen1.png" width = 415/>
+<img src="/assets/image/linAlg/essence/eigen4.png" width = 395/>
+</p>
+
+### Eigenvalue and determinant
+
+$$ A\overrightarrow{v} =  \color{pink}{\lambda} \overrightarrow{v} \Rightarrow  
+A\overrightarrow{v} -  \color{pink}{\lambda} I \overrightarrow{v} = \mathbf{0} \\
+(A - \color{pink}{\lambda}I) \overrightarrow{v} =  \mathbf{0} \Rightarrow
+det(A- \color{pink}{\lambda}I) = 0
+$$

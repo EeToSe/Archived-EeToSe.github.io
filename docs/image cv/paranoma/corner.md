@@ -62,9 +62,12 @@ $$E(u, v)\approx w(x,y)\sum_{(x, y) \in W}\left[I(x, y)+I_{x} u+I_{y} v-I(x, y)\
 ### Second moment matrix
 
 $$E(u, v) \approx w(x,y)(u^{2} \sum_{x, y} \color{red}{I_{x}^{2}}+2 u v \sum_{x, y} \color{red}{I_{x} I_{y}}+v^{2} \sum_{x, y} \color{red}{I_{y}^{2}}) \\
-=\left(\begin{array}{ll}u & v\end{array}\right)\left[\color{red}{\begin{array}{cc}w(x,y)\sum_{x, y} I_{x}^{2} & w(x,y)\sum_{x, y} I_{x} I_{y} \\ w(x,y)\sum_{x, y} I_{x} I_{y} & w(x,y)\sum_{x, y} I_{y}^{2}\end{array}}\right]\left(\begin{array}{l}u \\ v\end{array}\right)$$
+=\left(\begin{array}{ll}u & v\end{array}\right)\left[\color{red}{\begin{array}{cc}w(x,y)\sum_{x, y} I_{x}^{2} & w(x,y)\sum_{x, y} I_{x} I_{y} \\ w(x,y)\sum_{x, y} I_{x} I_{y} & w(x,y)\sum_{x, y} I_{y}^{2}\end{array}}\right]\left(\begin{array}{l}u \\ v\end{array}\right) $$
 
-$$M = \left[\color{red}{\begin{array}{cc}w(x,y)\sum_{x, y} I_{x}^{2} & w(x,y)\sum_{x, y} I_{x} I_{y} \\ w(x,y)\sum_{x, y} I_{x} I_{y} & w(x,y)\sum_{x, y} I_{y}^{2}\end{array}}\right]$$
+$$M = \left[\color{red}{\begin{array}{cc}w(x,y)\sum_{x, y} I_{x}^{2} & w(x,y)\sum_{x, y} I_{x} I_{y} \\ w(x,y)\sum_{x, y} I_{x} I_{y} & w(x,y)\sum_{x, y} I_{y}^{2}\end{array}}\right] = \left[\begin{array}{cc}
+ A & B \\
+ B & C   
+\end{array}\right]$$
 
 This matrix is weighted sum of nearby gradient information (could use Gaussian weighting). 
 
@@ -82,14 +85,15 @@ $\lambda_{1}$ and $\lambda_{2}$ are eigenvalues
   
 ### Estimating the smallest eigenvalue
 
-$$\operatorname{det}(M)=\lambda_{1} * \lambda_{2} \\
-\operatorname{trace}(\mathrm{M})=\lambda_{1}+\lambda_{2}\\
-\operatorname{det}(M)-a \operatorname{trace}(M)=\lambda_{1} \lambda_{2}-\alpha\left(\lambda_{1}+\lambda_{2}\right)^{2}$$ 
+$$\operatorname{det}(M)=\lambda_{1} \lambda_{2} = AB - C^2\\
+\operatorname{trace}(\mathrm{M})=\lambda_{1}+\lambda_{2} = A + B\\
+\text{corner response} = \operatorname{det}(M)-a \operatorname{trace}(M)$$ 
 
 If these estimates are large, $\lambda_{2}$ is large.
 
 ## Harris Corner Detection
-[C++ source code](https://github.com/EeToSe/ELEC4622-2019s2/tree/master/project3/project3/task4) implementation.
+Source code: [C++](https://github.com/EeToSe/ELEC4622-2019s2/tree/master/project3/project3/task4) and [Python](https://github.com/EeToSe/image-cv/blob/main/image_analysis/src/ass3/harris_detector.py) implementation.
+A [jupyter-notebook example](https://github.com/EeToSe/image-cv/blob/main/image_analysis/src/ass3/harris.ipynb). 
 1. Compute partial derivatives $I_{x}$ and $I_{y}$ at each pixel
 2. Compute second moment matrix in a Gaussian window around each pixel
 3. Compute corner response function $R=\operatorname{det}(M)-\alpha \operatorname{trace}(M)^{2}$
