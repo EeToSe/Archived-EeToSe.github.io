@@ -19,3 +19,12 @@ parent: Resources
 - [MSRA 星跃计划](https://www.msra.cn/zh-cn/connections/academic-programs/starleap)
 - [IBM extreme blue](https://www.ibm.com/employment/extremeblue/)
 
+## 内推
+- 学校毕业生 北邮人
+- [牛客网](https://www.nowcoder.com/)
+- 脉脉 Boss直聘
+
+## 项目精力
+- 课题
+- 阿里天池
+- Kaggle

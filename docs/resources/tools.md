@@ -19,10 +19,7 @@ parent: Resources
 
 ## document format conversion
 [Pandoc](https://pandoc.org/demos.html) Demos
-1. Latex -> Markdown: () <br> ```
-pandoc -s example4.tex -o example5.md
-```
-2. ipynb <-> markdown: 
-
-[nbconvert](https://nbviewer.org/github/ipython/ipython/blob/3.x/examples/Notebook/Converting%20Notebooks%20With%20nbconvert.ipynb)
+1. Latex -> Markdown: () <br> ```pandoc -s example4.tex -o example5.md```
+2. [ipynb <-> markdown](https://nbviewer.org/github/ipython/ipython/blob/3.x/examples/Notebook/Converting%20Notebooks%20With%20nbconvert.ipynb) <br>
+```[nbconvert]```
 
