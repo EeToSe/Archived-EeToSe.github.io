@@ -15,7 +15,7 @@ Projects,  (un)supervised learning, Bayesian
 - Speech Signal Processing
 - Basic algorithms <u>classification/clustering/regression</u> implementations
 
-### courses
+### Theory courses
 - [CMU Intro to ML](http://www.cs.cmu.edu/~mgormley/courses/10601/schedule.html) & [lecture videos](https://www.bilibili.com/video/BV15Z4y1K7Cd?spm_id_from=333.999.0.0)
 - [Berkeley Intro to ML](https://www.eecs189.org/) & [lecture videos](https://www.bilibili.com/video/BV1KA41157yn?spm_id_from=333.999.0.0)
 - [Waterloo](http://www.gautamkamath.com/courses/CS480-sp2021.html) & [lecture videos](https://www.bilibili.com/video/BV1Tf4y1Y7ZN/?spm_id_from=333.788.recommend_more_video.18)
@@ -23,3 +23,8 @@ Projects,  (un)supervised learning, Bayesian
   - [CS229: Machine Learning](https://cs229.stanford.edu/)
   - [CS229M: Machine Learning Theory](http://web.stanford.edu/class/stats214/)
   - [Study guide](https://stanford.edu/~shervine/teaching/cs-229/)  
+- [Math details](http://jwmi.github.io/teaching.html)
+
+### Application courses
+- [Applied Machine Learning](https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/) 配合CS229
+- [CompSciProgram](https://compphysics.github.io/CompSciProgram/)

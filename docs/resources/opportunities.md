@@ -24,7 +24,9 @@ parent: Resources
 - [牛客网](https://www.nowcoder.com/)
 - 脉脉 Boss直聘
 
-## 项目精力
+## 项目经历
+- 代码复现[paperwithcode](http://paperwithcode.com/)
 - 课题
 - 阿里天池
 - Kaggle
+- 极市AI
