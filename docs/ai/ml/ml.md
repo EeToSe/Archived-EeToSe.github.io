@@ -23,7 +23,8 @@ Projects,  (un)supervised learning, Bayesian
   - [CS229: Machine Learning](https://cs229.stanford.edu/)
   - [CS229M: Machine Learning Theory](http://web.stanford.edu/class/stats214/)
   - [Study guide](https://stanford.edu/~shervine/teaching/cs-229/)  
-- [Math details](http://jwmi.github.io/teaching.html)
+- [Math details](http://jwmi.github.io/teaching.html) by Jeff Miller
+- [Convex Optimization and Approximation](https://ee227c.github.io/) from Berkeley EE 227C 
 
 ### Application courses
 - [Applied Machine Learning](https://www.cs.columbia.edu/~amueller/comsw4995s20/schedule/) 配合CS229
