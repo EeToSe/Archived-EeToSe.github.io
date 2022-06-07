@@ -9,6 +9,6 @@ permalink: docs/thoughts
 
 # Thoughts
 {: .no_toc }
-This is a section hidden from the navigator bar
+This is a section hidden from the navigator bar, which is used to write blogs and find inner power.
 {: .fs-6 .fw-300 }
 

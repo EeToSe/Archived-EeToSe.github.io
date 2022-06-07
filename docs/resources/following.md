@@ -45,6 +45,7 @@ parent: Resources
 
 ### Phd students
 - [Xinjing Zhou](https://zxjcarrot.github.io/): inspiration we can do it!
+- [Garrett Thomas](https://ai.stanford.edu/~gwthomas/): UCB CS 189 math4ml notes and [convexity](https://ai.stanford.edu/~gwthomas/notes/convexity.pdf)
 - [Xinshuo Weng](https://www.xinshuoweng.com/index.html): how to research during PhD
 - [Yufei Ye](https://judyye.github.io/): self presentation and course outline
 
