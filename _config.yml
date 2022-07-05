@@ -23,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
             Knowledge base of Math, EE & CS
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
-#theme: just-the-docs
+#remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 #baseurl: "/steve-blog" # the subpath of your site, e.g. /blog
 #url: "https://EeToSe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -88,4 +88,4 @@ gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+color_scheme: wider

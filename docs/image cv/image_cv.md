@@ -18,6 +18,7 @@ Related resources: courses, websites
 - [CS 543: Computer Vision](https://slazebni.cs.illinois.edu/fall21/) and [CS 444: Deep Learning for CV](https://slazebni.cs.illinois.edu/spring22/) provided by **illinois** - Seu PPT source <br>
 - [CSE576: CV](https://courses.cs.washington.edu/courses/cse576/) and [CV: Algorithms and Applications](http://szeliski.org/Book/) and [Joseph](https://courses.cs.washington.edu/courses/cse455/22wi/) by **UoW** - textbook <br>
 - [CS6670 for PhD](https://www.cs.cornell.edu/courses/cs6670/2021fa/) and [CS5670：Intro](https://www.cs.cornell.edu/courses/cs5670/2021sp/) by **Cornell** - research abilities
+- [EECS 286 Advanced Topics in Computer Vision](http://faculty.ucmerced.edu/mhyang/course/eecs286-2016/index.htm)
 
 ### Security
 - [ACM Workshop on Information Hiding and Multimedia Security](https://www.ihmmsec.org/cms/home/home-2022.html?acceptCookie=1&idart=155&idcat=69&changelang=2)

@@ -65,8 +65,9 @@ $$
 
 ![png](/assets/image/fuzzy/boundary.png)
 
+(threshold)=
 ## Thresholding
-### OTSU ([code](https://github.com/EeToSe/image-cv/blob/main/cmu_cv/func/otsu.py) implementation)
+### Otsu ([code](https://github.com/EeToSe/image-cv/blob/main/cmu_cv/func/otsu.py) implementation)
 - Minimize the intra-class variance
 - Or Maximize the inter-class variance 
  

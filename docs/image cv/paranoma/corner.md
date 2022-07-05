@@ -21,7 +21,7 @@ $g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)$
 
 $g=f \otimes f $ <span style="color:blue"> *auto correlation* </span>
 
-$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) f(k, l)$
+$g(i, j)=\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)$
 
 $g_{N}(i,j) = \frac{\sum_{k} \sum_{l} f(i+k, j+l) h(k, l)} 
 {\sqrt{\sum_{k} \sum_{l} f^{2}(i+k, j+l)} {\sqrt{\sum_{k} \sum_{l} h^{2}(k, l)}}}$ <span style="color:blue"> *Normalized cross correlation* </span>
